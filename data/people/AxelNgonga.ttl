@@ -6,18 +6,6 @@ kg:AxelCyrilleNgongaNgomo a schema:Person ;
   schema:namePrefix "Prof. Dr." ;
   schema:role kg:Mentor ;
   schema:phone <tel:+49-525-16-03342> ;
-  schema:fax <tel:+49-525-16-03436> ;
   schema:email <mailto:axel.ngonga@upb.de> ;
-  schema:office "TP6.3.106" ;
   schema:photo "ngonga.jpg" ;
-  schema:content """
-# Content from RDF
-
-## Stuff
-
-Axel is our main test person that has all properties.
-
-## Test
-
-This is a test markdown that can include anything.
-  """ .
+  schema:link "https://dice-research.org/AxelCyrilleNgongaNgomo" .
