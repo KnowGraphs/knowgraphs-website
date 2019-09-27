@@ -1,5 +1,7 @@
 # KnowGraphs Website
 
+[![Actions Status](https://github.com/dice-group/knowgraphs-website/workflows/Build/badge.svg)](https://github.com/dice-group/knowgraphs-website/actions)
+
 This is a repo containing KnowGraphs website.
 
 ## Structure
