@@ -5,4 +5,4 @@ kgpartner:Semantic a schema:Partner ;
   schema:name "Semantic Web Company" ;
   schema:country "AU" ;
   schema:url <https://semantic-web.com/> ;
-  schema:logo "tomtom.png" .
+  schema:logo "" .
