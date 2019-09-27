@@ -1,0 +1,8 @@
+@prefix kgpartner: <https://dice-research.org/partner/> .
+@prefix schema: <https://schema.dice-research.org/> .
+
+kgpartner:Refinitiv a schema:Partner ;
+  schema:name "Refinitiv" ;
+  schema:country "" ;
+  schema:url <https://www.refinitiv.com/en> ;
+  schema:logo "tomtom.png" .

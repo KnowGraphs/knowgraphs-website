@@ -1,0 +1,8 @@
+@prefix kgpartner: <https://dice-research.org/partner/> .
+@prefix schema: <https://schema.dice-research.org/> .
+
+kgpartner:Semantic a schema:Partner ;
+  schema:name "Semantic Web Company" ;
+  schema:country "AU" ;
+  schema:url <https://semantic-web.com/> ;
+  schema:logo "tomtom.png" .

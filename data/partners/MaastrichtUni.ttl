@@ -1,0 +1,8 @@
+@prefix kgpartner: <https://dice-research.org/partner/> .
+@prefix schema: <https://schema.dice-research.org/> .
+
+kgpartner:Maastricht a schema:Partner ;
+  schema:name "Maastricht University" ;
+  schema:country "NL" ;
+  schema:url <https://www.maastrichtuniversity.nl/> ;
+  schema:logo "" .

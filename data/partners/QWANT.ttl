@@ -1,0 +1,8 @@
+@prefix kgpartner: <https://dice-research.org/partner/> .
+@prefix schema: <https://schema.dice-research.org/> .
+
+kgpartner:QWANT a schema:Partner ;
+  schema:name "QWANT SAS" ;
+  schema:country "FR" ;
+  schema:url <https://www.qwant.com/?l=en> ;
+  schema:logo "" .
