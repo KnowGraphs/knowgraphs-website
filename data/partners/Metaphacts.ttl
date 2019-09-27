@@ -1,0 +1,8 @@
+@prefix kgpartner: <https://dice-research.org/partner/> .
+@prefix schema: <https://schema.dice-research.org/> .
+
+kgpartner:Metaphacts a schema:Partner ;
+  schema:name "metaphacts GmbH" ;
+  schema:country "DE" ;
+  schema:url <https://www.metaphacts.com/> ;
+  schema:logo "" .

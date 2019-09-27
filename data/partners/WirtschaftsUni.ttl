@@ -1,0 +1,8 @@
+@prefix kgpartner: <https://dice-research.org/partner/> .
+@prefix schema: <https://schema.dice-research.org/> .
+
+kgpartner:Wirtschafts a schema:Partner ;
+  schema:name "Wirtschaftsuniversität Wien" ;
+  schema:country "AU" ;
+  schema:url <https://www.wu.ac.at/en/> ;
+  schema:logo "" .

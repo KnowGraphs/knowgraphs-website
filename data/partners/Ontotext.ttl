@@ -1,0 +1,8 @@
+@prefix kgpartner: <https://dice-research.org/partner/> .
+@prefix schema: <https://schema.dice-research.org/> .
+
+kgpartner:Ontotext a schema:Partner ;
+  schema:name "Ontotext AD" ;
+  schema:country "BG" ;
+  schema:url <https://ontotext.com/> ;
+  schema:logo "" .

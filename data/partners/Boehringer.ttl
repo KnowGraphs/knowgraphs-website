@@ -1,0 +1,8 @@
+@prefix kgpartner: <https://dice-research.org/partner/> .
+@prefix schema: <https://schema.dice-research.org/> .
+
+kgpartner:Boehringer a schema:Partner ;
+  schema:name "Boehringer Ingelheim Pharma GmbH & Co. KG" ;
+  schema:country "DE" ;
+  schema:url <https://www.boehringer-ingelheim.com/> ;
+  schema:logo "" .

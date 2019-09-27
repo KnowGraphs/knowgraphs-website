@@ -1,0 +1,8 @@
+@prefix kgpartner: <https://dice-research.org/partner/> .
+@prefix schema: <https://schema.dice-research.org/> .
+
+kgpartner:Groningen a schema:Partner ;
+  schema:name "University of Groningen" ;
+  schema:country "NL" ;
+  schema:url <https://www.rug.nl/?lang=en> ;
+  schema:logo "" .
