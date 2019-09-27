@@ -64,11 +64,8 @@ export const pageQuery = graphql`
             name
             namePrefix
             phone
-            fax
             email
-            office
             photo
-            content
             role {
               data {
                 name

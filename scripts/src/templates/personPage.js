@@ -1,6 +1,5 @@
 import { graphql, Link } from 'gatsby';
 import React from 'react';
-import ReactMarkdown from 'react-markdown';
 import BackButton from '../components/backButton';
 import Image from '../components/image';
 import Layout from '../components/layout';
@@ -10,18 +9,7 @@ import SEO from '../components/seo';
 
 export default function PersonTemplate({ data: { rdf, allRdf } }) {
   const {
-    data: {
-      content,
-      name,
-      namePrefix,
-      role,
-      project,
-      phone,
-      fax,
-      email,
-      office,
-      photo,
-    },
+    data: { name, namePrefix, role, project, phone, email, photo },
   } = rdf;
   const { edges } = allRdf;
   return (
@@ -60,27 +48,8 @@ export default function PersonTemplate({ data: { rdf, allRdf } }) {
                 <div className="meta-value">{phone.replace('tel:', '')}</div>
               </div>
             )}
-            {fax && (
-              <div className="is-flex meta">
-                <div className="meta-label">Fax</div>
-                <div className="meta-value">{fax.replace('tel:', '')}</div>
-              </div>
-            )}
-            {office && (
-              <div className="is-flex meta">
-                <div className="meta-label">Office</div>
-                <div className="meta-value">{office}</div>
-              </div>
-            )}
           </div>
         </div>
-        {content && (
-          <div className="person-content">
-            {content.map((mdString, i) => (
-              <ReactMarkdown key={`content_${i}`} source={mdString} />
-            ))}
-          </div>
-        )}
 
         {project && (
           <>
@@ -120,11 +89,8 @@ export const pageQuery = graphql`
         name
         namePrefix
         phone
-        fax
         email
-        office
         photo
-        content
         role {
           data {
             name
