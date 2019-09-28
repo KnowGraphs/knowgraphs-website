@@ -1,0 +1,9 @@
+@prefix kg: <https://dice-research.org/> .
+@prefix schema: <https://schema.dice-research.org/> .
+
+kg:ArtemRevenko a schema:Person ;
+  schema:name "Artem Revenko" ;
+  schema:namePrefix "Dr." ;
+  schema:role kg:Mentor ;
+  schema:photo "" ;
+  schema:link "" .

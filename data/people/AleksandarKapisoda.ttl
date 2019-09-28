@@ -1,0 +1,9 @@
+@prefix kg: <https://dice-research.org/> .
+@prefix schema: <https://schema.dice-research.org/> .
+
+kg:AleksandarKapisoda a schema:Person ;
+  schema:name "Aleksandar Kapisoda" ;
+  schema:namePrefix "" ;
+  schema:role kg:ESR ;
+  schema:photo "" ;
+  schema:link "" .

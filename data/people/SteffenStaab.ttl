@@ -1,0 +1,9 @@
+@prefix kg: <https://dice-research.org/> .
+@prefix schema: <https://schema.dice-research.org/> .
+
+kg:SteffenStaab a schema:Person ;
+  schema:name "Steffen Staab" ;
+  schema:namePrefix "Prof. Dr." ;
+  schema:role kg:Mentor ;
+  schema:photo "" ;
+  schema:link "" .
