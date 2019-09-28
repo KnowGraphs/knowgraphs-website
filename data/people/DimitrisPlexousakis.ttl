@@ -1,0 +1,9 @@
+@prefix kg: <https://dice-research.org/> .
+@prefix schema: <https://schema.dice-research.org/> .
+
+kg:DimitrisPlexousakis a schema:Person ;
+  schema:name "Dimitris Plexousakis" ;
+  schema:namePrefix "Prof. Dr." ;
+  schema:role kg:ESR ;
+  schema:photo "" ;
+  schema:link "" .

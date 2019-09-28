@@ -1,0 +1,9 @@
+@prefix kg: <https://dice-research.org/> .
+@prefix schema: <https://schema.dice-research.org/> .
+
+kg:BenWittam a schema:Person ;
+  schema:name "Ben Wittam-Smith" ;
+  schema:namePrefix "" ;
+  schema:role kg:ESR ;
+  schema:photo "" ;
+  schema:link "" .

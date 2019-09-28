@@ -1,0 +1,9 @@
+@prefix kg: <https://dice-research.org/> .
+@prefix schema: <https://schema.dice-research.org/> .
+
+kg:IriniFundulaki a schema:Person ;
+  schema:name "Irini Fundulaki" ;
+  schema:namePrefix "Dr." ;
+  schema:role kg:Mentor ;
+  schema:photo "" ;
+  schema:link "" .

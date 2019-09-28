@@ -1,0 +1,9 @@
+@prefix kg: <https://dice-research.org/> .
+@prefix schema: <https://schema.dice-research.org/> .
+
+kg:PeterHasse a schema:Person ;
+  schema:name "Peter Hasse" ;
+  schema:namePrefix "Dr." ;
+  schema:role kg:Mentor ;
+  schema:photo "" ;
+  schema:link "" .

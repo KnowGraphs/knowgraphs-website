@@ -1,0 +1,9 @@
+@prefix kg: <https://dice-research.org/> .
+@prefix schema: <https://schema.dice-research.org/> .
+
+kg:RobertoNavigli a schema:Person ;
+  schema:name "Roberto Navigli" ;
+  schema:namePrefix "" ;
+  schema:role kg:Mentor ;
+  schema:photo "" ;
+  schema:link "" .
