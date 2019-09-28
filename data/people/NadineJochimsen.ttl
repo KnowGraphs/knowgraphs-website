@@ -4,5 +4,6 @@
 kg:NadineJochimsen a schema:Person ;
   schema:name "Nadine Jochimsen" ;
   schema:namePrefix "" ;
+  schema:role kg:ESR ;
   schema:photo "" ;
   schema:link "" .

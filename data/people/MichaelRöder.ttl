@@ -4,6 +4,7 @@
 kg:MichaelRöder a schema:Person ;
   schema:name "Michael Röder" ;
   schema:namePrefix "" ;
+  schema:role kg:ESR ;
   schema:phone <tel:+49-525-16-03894> ;
   schema:email <mailto:michael.roeder@uni-paderborn.de> ;
   schema:photo "" ;
