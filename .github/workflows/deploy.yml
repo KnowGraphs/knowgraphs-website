@@ -1,0 +1,52 @@
+name: Deploy
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v1
+      - name: Use Node.js 12
+        uses: actions/setup-node@v1
+        with:
+          node-version: 12
+      - name: install and lint
+        working-directory: ./scripts
+        run: |
+          yarn install
+          yarn lint
+      - name: update papers
+        working-directory: ./scripts
+        run: |
+          rm ../data/**/_Example.ttl
+          yarn papers
+      - name: build
+        working-directory: ./scripts
+        run: yarn build
+      - name: prepare deploy
+        working-directory: ./scripts
+        run: |
+          cp exoframe.json public/
+          cp Dockerfile public/
+      - name: deploy
+        working-directory: ./scripts/public
+        run: npx exoframe -u -e https://exoframe.codezen.net -t $EXO_TOKEN
+        env:
+          EXO_TOKEN: ${{ secrets.EXO_TOKEN }}
+  syncBranches:
+    needs: deploy
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v1
+      - name: merge master to develop
+        run: |
+          git remote set-url origin https://x-access-token:$GITHUB_TOKEN@github.com/$GITHUB_REPOSITORY
+          git checkout develop
+          git merge origin/master
+          git push origin develop
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
