@@ -66,6 +66,7 @@ export const pageQuery = graphql`
             phone
             email
             photo
+            link
             role {
               data {
                 name

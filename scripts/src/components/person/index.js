@@ -3,7 +3,16 @@ import React from 'react';
 import Image from '../image';
 
 export const Person = ({ person }) => (
-  <div className="person" onClick={() => navigate(person.path)}>
+  <div
+    className="person"
+    onClick={() => {
+      if (person.link) {
+        window.location.href = person.link;
+        return;
+      }
+      navigate(person.path);
+    }}
+  >
     <div className="person-image">
       <Image
         filename={person.photo}
@@ -11,9 +20,15 @@ export const Person = ({ person }) => (
         style={{ width: 160 }}
       />
     </div>
-    <Link to={person.path}>
-      {person.namePrefix} {person.name}
-    </Link>
+    {person.link ? (
+      <a href={person.link}>
+        {person.namePrefix} {person.name}
+      </a>
+    ) : (
+      <Link to={person.path}>
+        {person.namePrefix} {person.name}
+      </Link>
+    )}
   </div>
 );
 
