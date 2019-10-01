@@ -1,6 +1,7 @@
 import { Link, navigate } from 'gatsby';
 import React from 'react';
 import { TwitterTimelineEmbed } from 'react-twitter-embed';
+import ContactForm from '../components/contact';
 import Layout from '../components/layout';
 import News from '../components/news';
 import SEO from '../components/seo';
@@ -32,9 +33,9 @@ export default function Home() {
       <section id="about" className="hero hero-row is-medium" ref={heroRef}>
         <div className="hero-body">
           <div className="container content">
-            <h1 className="title">Welcome to the Data Science Group</h1>
+            <h1 className="title">Welcome to KnowGraphs</h1>
             <p className="hero-text">
-              We are DICE (Data Science Group).{' '}
+              TODO: We are DICE (Data Science Group).{' '}
               <Link to="/team/">Our team</Link> develops methods,algorithms and
               applications for the extraction, integrations, storage, querying,
               access and consumption of large-scale datasets. DICE focuses on
@@ -76,14 +77,14 @@ export default function Home() {
           <div className="container content">
             <div className="section-header">
               <h1 className="title">Latest tweets</h1>
-              <a className="link-more" href="https://twitter.com/DiceResearch">
+              <a className="link-more" href="https://twitter.com/knowgraphs">
                 Follow →
               </a>
             </div>
 
             <TwitterTimelineEmbed
               sourceType="profile"
-              screenName="DiceResearch"
+              screenName="KnowGraphs"
               noFooter
               noHeader
               noScrollbar
@@ -127,7 +128,7 @@ export default function Home() {
               </Link>
             </div>
 
-            <h2>TODO: add contact info</h2>
+            <ContactForm />
           </div>
         </div>
       </section>

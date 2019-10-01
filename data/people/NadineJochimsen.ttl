@@ -5,5 +5,8 @@ kg:NadineJochimsen a schema:Person ;
   schema:name "Nadine Jochimsen" ;
   schema:namePrefix "" ;
   schema:role kg:ESR ;
-  schema:photo "" ;
-  schema:link "" .
+  schema:phone <tel:+49-341-9732367> ;
+  schema:email <mailto:jochimsen@informatik.uni-leipzig.de> ;
+  schema:photo "jochimsen.jpg" ;
+  schema:link "http://aksw.org/NadineJochimsen.html" .
+

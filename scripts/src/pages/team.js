@@ -23,24 +23,26 @@ export default function Team({
       <div className="content team">
         <h1>Team</h1>
 
-        {Object.keys(peopleByRole).map(role => (
-          <div
-            key={role}
-            className="tile is-vertical"
-            style={{ marginBottom: '3em' }}
-          >
-            <h2 style={{ marginBottom: '1em' }}>{role}</h2>
-            <div className="columns is-multiline is-5 is-variable">
-              {peopleByRole[role]
-                .sort((a, b) => a.name.localeCompare(b.name))
-                .map(person => (
-                  <div className="column is-one-quarter" key={person.path}>
-                    <Person person={person} />
-                  </div>
-                ))}
+        {Object.keys(peopleByRole)
+          .sort((a, b) => a.localeCompare(b))
+          .map(role => (
+            <div
+              key={role}
+              className="tile is-vertical"
+              style={{ marginBottom: '3em' }}
+            >
+              <h2 style={{ marginBottom: '1em' }}>{role}</h2>
+              <div className="columns is-multiline is-5 is-variable">
+                {peopleByRole[role]
+                  .sort((a, b) => a.name.localeCompare(b.name))
+                  .map(person => (
+                    <div className="column is-one-quarter" key={person.path}>
+                      <Person person={person} />
+                    </div>
+                  ))}
+              </div>
             </div>
-          </div>
-        ))}
+          ))}
       </div>
     </Layout>
   );
