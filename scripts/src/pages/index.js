@@ -1,6 +1,7 @@
 import { Link, navigate } from 'gatsby';
 import React from 'react';
 import { TwitterTimelineEmbed } from 'react-twitter-embed';
+import ContactForm from '../components/contact';
 import Layout from '../components/layout';
 import News from '../components/news';
 import SEO from '../components/seo';
@@ -127,7 +128,7 @@ export default function Home() {
               </Link>
             </div>
 
-            <h2>TODO: add contact info</h2>
+            <ContactForm />
           </div>
         </div>
       </section>
