@@ -88,7 +88,7 @@ const ContactForm = () => {
             alt={`${axelProfile.data.name} photo`}
           />
         </div>
-        <p className="property-name has-text-grey-light">[TODO: Title]</p>
+        <p className="property-name has-text-grey-light">Project Coordinator</p>
         <p className="property-value">
           {axelProfile.data.namePrefix} {axelProfile.data.name}
         </p>

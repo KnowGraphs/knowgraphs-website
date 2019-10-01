@@ -1,6 +1,6 @@
 import { Link } from 'gatsby';
 import React, { useState } from 'react';
-import DICE from '../svgs/dice.inline.svg';
+import KG from '../svgs/knowgraphs-logo.inline.svg';
 
 const links = [
   { url: '/', text: 'Home' },
@@ -16,7 +16,8 @@ const Header = () => {
     <nav className="navbar" role="navigation" aria-label="main navigation">
       <div className="navbar-brand">
         <Link to="/" className="navbar-item no-opacity">
-          <DICE className="dice-nav-logo" />
+          <KG className="dice-nav-logo" />
+          KnowGraphs
         </Link>
 
         <a

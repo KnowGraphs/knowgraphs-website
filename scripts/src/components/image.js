@@ -1,7 +1,7 @@
 import { graphql, useStaticQuery } from 'gatsby';
 import Img from 'gatsby-image';
 import React from 'react';
-import DICE from './svgs/dice.inline.svg';
+import KG from './svgs/knowgraphs-logo.inline.svg';
 
 const Image = ({ filename, alt, style, className = 'image' }) => {
   // pre-calculate all images data
@@ -31,12 +31,7 @@ const Image = ({ filename, alt, style, className = 'image' }) => {
 
   if (!imageEl) {
     return (
-      <DICE
-        viewBox="0 0 700 763"
-        height="100%"
-        width="100%"
-        preserveAspectRatio="xMidYMid meet"
-      />
+      <KG height="100%" width="100%" preserveAspectRatio="xMidYMid meet" />
     );
   }
 

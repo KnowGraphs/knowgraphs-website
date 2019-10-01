@@ -1,7 +1,7 @@
 import { Link } from 'gatsby';
 import React from 'react';
 import Social from '../social';
-import DICE from '../svgs/dice.inline.svg';
+import KG from '../svgs/knowgraphs.inline.svg';
 import UPB from '../svgs/upb.inline.svg';
 
 const links = [
@@ -18,7 +18,7 @@ const Footer = () => (
   <div className="footer">
     <div className="columns" style={{ flex: 1 }}>
       <div className="column is-flex">
-        <DICE className="dice-nav-logo" />
+        <KG className="dice-nav-logo-footer" />
       </div>
       <div className="column dice-footer">
         {links.map(l => (
