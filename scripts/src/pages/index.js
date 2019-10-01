@@ -76,14 +76,14 @@ export default function Home() {
           <div className="container content">
             <div className="section-header">
               <h1 className="title">Latest tweets</h1>
-              <a className="link-more" href="https://twitter.com/DiceResearch">
+              <a className="link-more" href="https://twitter.com/knowgraphs">
                 Follow →
               </a>
             </div>
 
             <TwitterTimelineEmbed
               sourceType="profile"
-              screenName="DiceResearch"
+              screenName="KnowGraphs"
               noFooter
               noHeader
               noScrollbar

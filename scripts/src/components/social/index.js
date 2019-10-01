@@ -7,7 +7,7 @@ const links = [
     text: 'Facebook',
     icon: FaFacebookF,
   },
-  { url: 'https://twitter.com/DiceResearch', text: 'Twitter', icon: FaTwitter },
+  { url: 'https://twitter.com/knowgraphs', text: 'Twitter', icon: FaTwitter },
   { url: 'https://github.com/dice-group', text: 'GitHub', icon: FaGithub },
   {
     url: 'https://www.youtube.com/channel/UCDshdIaiXqwZsQ4Gl_70OMA',
