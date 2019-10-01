@@ -50,7 +50,7 @@ const main = async () => {
   // get papers for tag `simba`
   const { items: papers } = await fetch(
     // TODO: fix the url
-    `https://www.bibsonomy.org/json/user/dice-research/knowgraphs?items=1000`
+    `https://www.bibsonomy.org/json/user/dice-research/simba?items=1000`
   ).then(r => r.json());
 
   console.log('Processing papers:', papers.length);
