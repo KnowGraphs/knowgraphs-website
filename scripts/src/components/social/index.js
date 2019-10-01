@@ -1,18 +1,12 @@
 import React from 'react';
-import { FaFacebookF, FaGithub, FaTwitter, FaYoutube } from 'react-icons/fa';
+import { FaInstagram, FaTwitter } from 'react-icons/fa';
 
 const links = [
-  {
-    url: 'https://www.facebook.com/DiceUPB',
-    text: 'Facebook',
-    icon: FaFacebookF,
-  },
   { url: 'https://twitter.com/knowgraphs', text: 'Twitter', icon: FaTwitter },
-  { url: 'https://github.com/dice-group', text: 'GitHub', icon: FaGithub },
   {
-    url: 'https://www.youtube.com/channel/UCDshdIaiXqwZsQ4Gl_70OMA',
-    text: 'YouTube',
-    icon: FaYoutube,
+    url: 'https://instagram.com/knowgraphs',
+    text: 'Instagram',
+    icon: FaInstagram,
   },
 ];
 

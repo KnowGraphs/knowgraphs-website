@@ -33,9 +33,9 @@ export default function Home() {
       <section id="about" className="hero hero-row is-medium" ref={heroRef}>
         <div className="hero-body">
           <div className="container content">
-            <h1 className="title">Welcome to the Data Science Group</h1>
+            <h1 className="title">Welcome to KnowGraphs</h1>
             <p className="hero-text">
-              We are DICE (Data Science Group).{' '}
+              TODO: We are DICE (Data Science Group).{' '}
               <Link to="/team/">Our team</Link> develops methods,algorithms and
               applications for the extraction, integrations, storage, querying,
               access and consumption of large-scale datasets. DICE focuses on
