@@ -16,13 +16,14 @@ export default function Partners({
     <Layout>
       <SEO title="Partners" />
 
-      <section className="section">
-        <div className="container content">
-          <h1>Partners</h1>
+      <div className="container content">
+        <h1>Partners</h1>
 
-          {Object.keys(partnersByType).map(type => (
+        {Object.keys(partnersByType)
+          .sort((a, b) => b.localeCompare(b))
+          .map(type => (
             <div
-              className="tile is-vertical"
+              className="flex is-vertical"
               style={{ marginBottom: '3em' }}
               key={type}
             >
@@ -40,8 +41,7 @@ export default function Partners({
               </div>
             </div>
           ))}
-        </div>
-      </section>
+      </div>
     </Layout>
   );
 }
