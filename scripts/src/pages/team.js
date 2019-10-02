@@ -32,7 +32,7 @@ export default function Team({
               className="tile is-vertical"
               style={{ marginBottom: '3em' }}
             >
-              <h2 style={{ marginBottom: '1em' }}>{role}</h2>
+              <h2 style={{ marginBottom: '1em' }}>{role}s</h2>
               <div className="columns is-multiline is-5 is-variable">
                 {peopleByRole[role]
                   .sort((a, b) => a.name.localeCompare(b.name))
