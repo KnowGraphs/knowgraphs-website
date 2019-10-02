@@ -2,7 +2,6 @@ import { Link } from 'gatsby';
 import React from 'react';
 import Social from '../social';
 import KG from '../svgs/knowgraphs.inline.svg';
-import UPB from '../svgs/upb.inline.svg';
 
 const links = [
   { url: '/team/', text: 'Team' },
@@ -28,16 +27,6 @@ const Footer = () => (
         ))}
       </div>
       <Social hiddenMobile={false} />
-    </div>
-
-    <div className="horizontal-separator" />
-
-    <div className="is-flex horizontally-centered">
-      <a href="https://www.uni-paderborn.de/">
-        <UPB
-          style={{ filter: 'grayscale(1) invert(1) opacity(0.5)', width: 200 }}
-        />
-      </a>
     </div>
   </div>
 );
