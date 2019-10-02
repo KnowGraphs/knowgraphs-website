@@ -5,4 +5,5 @@ kgpartner:Boehringer a schema:Partner ;
   schema:name "Boehringer Ingelheim Pharma GmbH & Co. KG" ;
   schema:country "DE" ;
   schema:url <https://www.boehringer-ingelheim.com/> ;
+  schema:kind "Associated" ;
   schema:logo "" .

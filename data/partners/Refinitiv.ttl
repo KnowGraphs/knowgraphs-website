@@ -5,4 +5,5 @@ kgpartner:Refinitiv a schema:Partner ;
   schema:name "Refinitiv" ;
   schema:country "" ;
   schema:url <https://www.refinitiv.com/en> ;
+  schema:kind "Associated" ;
   schema:logo "" .

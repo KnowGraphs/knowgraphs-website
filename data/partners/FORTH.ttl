@@ -5,4 +5,5 @@ kgpartner:FORTH a schema:Partner ;
   schema:name "Foundation for Research and Technology" ;
   schema:country "GR" ;
   schema:url <https://www.forth.gr/> ;
+  schema:kind "Beneficiaries" ;
   schema:logo "" .

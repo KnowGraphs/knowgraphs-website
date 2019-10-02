@@ -5,4 +5,5 @@ kgpartner:Leibniz a schema:Partner ;
   schema:name "Leibniz Universität Hannover" ;
   schema:country "DE" ;
   schema:url <https://www.uni-hannover.de/en/> ;
+  schema:kind "Beneficiaries" ;
   schema:logo "" .
