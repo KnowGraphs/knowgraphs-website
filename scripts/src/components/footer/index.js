@@ -2,7 +2,6 @@ import { Link } from 'gatsby';
 import React from 'react';
 import Social from '../social';
 import KG from '../svgs/knowgraphs.inline.svg';
-import UPB from '../svgs/upb.inline.svg';
 
 const links = [
   { url: '/team/', text: 'Team' },
@@ -32,12 +31,10 @@ const Footer = () => (
 
     <div className="horizontal-separator" />
 
-    <div className="is-flex horizontally-centered">
-      <a href="https://www.uni-paderborn.de/">
-        <UPB
-          style={{ filter: 'grayscale(1) invert(1) opacity(0.5)', width: 200 }}
-        />
-      </a>
+    <div className="is-flex horizontally-centered funding-text">
+      This project has received funding from the European Union’s Horizon 2020
+      research and innovation programme under the Marie Skłodowska-Curie grant
+      agreement No 860801.
     </div>
   </div>
 );

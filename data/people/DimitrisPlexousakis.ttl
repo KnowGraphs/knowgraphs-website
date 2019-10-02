@@ -4,6 +4,6 @@
 kg:DimitrisPlexousakis a schema:Person ;
   schema:name "Dimitris Plexousakis" ;
   schema:namePrefix "Prof. Dr." ;
-  schema:role kg:ESR ;
+  schema:role kg:Mentor ;
   schema:photo "" ;
   schema:link "" .

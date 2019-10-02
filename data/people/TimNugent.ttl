@@ -1,9 +1,0 @@
-@prefix kg: <https://dice-research.org/> .
-@prefix schema: <https://schema.dice-research.org/> .
-
-kg:TimNugent a schema:Person ;
-  schema:name "Tim Nugent" ;
-  schema:namePrefix "" ;
-  schema:role kg:ESR ;
-  schema:photo "" ;
-  schema:link "" .

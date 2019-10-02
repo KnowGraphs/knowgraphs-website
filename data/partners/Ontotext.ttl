@@ -5,4 +5,5 @@ kgpartner:Ontotext a schema:Partner ;
   schema:name "Ontotext AD" ;
   schema:country "BG" ;
   schema:url <https://ontotext.com/> ;
+  schema:kind "Associated" ;
   schema:logo "" .

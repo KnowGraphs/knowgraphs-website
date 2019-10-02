@@ -35,13 +35,11 @@ export default function Home() {
           <div className="container content">
             <h1 className="title">Welcome to KnowGraphs</h1>
             <p className="hero-text">
-              TODO: We are DICE (Data Science Group).{' '}
-              <Link to="/team/">Our team</Link> develops methods,algorithms and
-              applications for the extraction, integrations, storage, querying,
-              access and consumption of large-scale datasets. DICE focuses on
-              knowledge-driven methods. We are dedicated to{' '}
-              <Link to="/demos/">open-source</Link> software and{' '}
-              <Link to="/publications/">open publications</Link>.
+              The overall objective of KnowGraphs is to scale KGs to be
+              accessible to a wide audience of users across multiple domains
+              including (1) companies (in domains including Industry 4.0,
+              bio-medicine, finance, law) of all sizes and even (2) end users
+              (e.g., through personal assistants and web search).
             </p>
             <button
               onClick={() => navigate('/news/')}
@@ -61,9 +59,23 @@ export default function Home() {
         <div className="hero-body">
           <div className="container content">
             <div className="section-header">
-              <h1 className="title">Research area</h1>
+              <h1 className="title">Research areas</h1>
             </div>
-            <h2>TODO: add research areas</h2>
+
+            <div className="research-areas-list">
+              <div className="research-area-item research-area-rep">
+                Representation
+              </div>
+              <div className="research-area-item research-area-cnm">
+                Construction <br /> and <br /> Maintenance
+              </div>
+              <div className="research-area-item research-area-op">
+                Operation
+              </div>
+              <div className="research-area-item research-area-expl">
+                Exploitation
+              </div>
+            </div>
           </div>
         </div>
       </section>

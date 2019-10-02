@@ -4,9 +4,10 @@ import KG from '../svgs/knowgraphs-logo.inline.svg';
 
 const links = [
   { url: '/', text: 'Home' },
-  { url: '/publications/', text: 'Publications' },
-  { url: '/partners/', text: 'Partners' },
   { url: '/team/', text: 'Team' },
+  { url: '/partners/', text: 'Partners' },
+  { url: '/publications/', text: 'Publications' },
+  { url: '/deliverables/', text: 'Deliverables' },
 ];
 
 const Header = () => {

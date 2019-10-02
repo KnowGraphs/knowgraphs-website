@@ -1,8 +1,0 @@
-@prefix kgpartner: <https://dice-research.org/partner/> .
-@prefix schema: <https://schema.dice-research.org/> .
-
-kgpartner:TomTom a schema:Partner ;
-  schema:name "TomTom" ;
-  schema:country "" ;
-  schema:url <https://www.tomtom.com/de_de/> ;
-  schema:logo "tomtom.png" .

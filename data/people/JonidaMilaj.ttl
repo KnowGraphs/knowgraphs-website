@@ -2,7 +2,7 @@
 @prefix schema: <https://schema.dice-research.org/> .
 
 kg:JonidaMilaj a schema:Person ;
-  schema:name "Jonida Milaj" ;
+  schema:name "Jonida Milaj Weishaar" ;
   schema:namePrefix "Dr." ;
   schema:role kg:Mentor ;
   schema:photo "" ;

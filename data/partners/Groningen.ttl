@@ -5,4 +5,5 @@ kgpartner:Groningen a schema:Partner ;
   schema:name "University of Groningen" ;
   schema:country "NL" ;
   schema:url <https://www.rug.nl/?lang=en> ;
+  schema:kind "Beneficiaries" ;
   schema:logo "" .
