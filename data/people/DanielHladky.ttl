@@ -1,9 +1,0 @@
-@prefix kg: <https://dice-research.org/> .
-@prefix schema: <https://schema.dice-research.org/> .
-
-kg:DanielHladky a schema:Person ;
-  schema:name "Daniel Hladky" ;
-  schema:namePrefix "" ;
-  schema:role kg:Mentor ;
-  schema:photo "" ;
-  schema:link "" .

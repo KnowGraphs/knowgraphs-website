@@ -16,6 +16,7 @@ const contactsQuery = graphql`
     ) {
       edges {
         node {
+          id
           path
           data {
             name
@@ -23,12 +24,6 @@ const contactsQuery = graphql`
             phone
             email
             photo
-            role {
-              data {
-                name
-                priority
-              }
-            }
           }
         }
       }
@@ -41,11 +36,11 @@ const ContactForm = () => {
     allRdf: { edges },
   } = useStaticQuery(contactsQuery);
 
-  const axelProfile = edges.find(
-    ({ node }) => node.data.role.data.name === 'Mentor'
+  const axelProfile = edges.find(({ node }) =>
+    node.id.endsWith('AxelCyrilleNgongaNgomo')
   ).node;
-  const nadineProfile = edges.find(
-    ({ node }) => node.data.role.data.name === 'Early stage researcher'
+  const nadineProfile = edges.find(({ node }) =>
+    node.id.endsWith('NadineJochimsen')
   ).node;
 
   return (
