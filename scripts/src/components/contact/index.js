@@ -110,7 +110,7 @@ const ContactForm = () => {
             alt={`${nadineProfile.data.name} photo`}
           />
         </div>
-        <p className="property-name has-text-grey-light">[TODO: Title]</p>
+        <p className="property-name has-text-grey-light">Project Manager</p>
         <p className="property-value">
           {nadineProfile.data.namePrefix} {nadineProfile.data.name}
         </p>
