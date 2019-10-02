@@ -28,6 +28,14 @@ const Footer = () => (
       </div>
       <Social hiddenMobile={false} />
     </div>
+
+    <div className="horizontal-separator" />
+
+    <div className="is-flex horizontally-centered funding-text">
+      This project has received funding from the European Union’s Horizon 2020
+      research and innovation programme under the Marie Skłodowska-Curie grant
+      agreement No 860801.
+    </div>
   </div>
 );
 
