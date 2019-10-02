@@ -1,12 +1,12 @@
 import React from 'react';
-import { FaInstagram, FaTwitter } from 'react-icons/fa';
+import { FaGithub, FaTwitter } from 'react-icons/fa';
 
 const links = [
   { url: 'https://twitter.com/knowgraphs', text: 'Twitter', icon: FaTwitter },
   {
-    url: 'https://instagram.com/knowgraphs',
-    text: 'Instagram',
-    icon: FaInstagram,
+    url: 'https://github.com/KnowGraphs',
+    text: 'Github',
+    icon: FaGithub,
   },
 ];
 
