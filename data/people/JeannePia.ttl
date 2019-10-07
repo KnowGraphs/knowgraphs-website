@@ -5,5 +5,5 @@ kg:JeannePia a schema:Person ;
   schema:name "Jeanne Pia Mifsud Bonnici" ;
   schema:namePrefix "Prof. Dr." ;
   schema:role kg:Mentor ;
-  schema:photo "" ;
-  schema:link "" .
+  schema:photo "jeannebonnici.jpg" ;
+  schema:link "https://www.rug.nl/staff/g.p.mifsud.bonnici/" .
