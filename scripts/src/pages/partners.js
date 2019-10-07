@@ -20,7 +20,7 @@ export default function Partners({
         <h1>Partners</h1>
 
         {Object.keys(partnersByType)
-          .sort((a, b) => b.localeCompare(b))
+          .sort((a, b) => b.localeCompare(a))
           .map(type => (
             <div
               className="flex is-vertical"
