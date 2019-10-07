@@ -5,5 +5,5 @@ kg:JonidaMilaj a schema:Person ;
   schema:name "Jonida Milaj Weishaar" ;
   schema:namePrefix "Dr." ;
   schema:role kg:Mentor ;
-  schema:photo "" ;
-  schema:link "" .
+  schema:photo "jonidamilaj.png" ;
+  schema:link "https://www.rug.nl/staff/j.milaj-weishaar/" .

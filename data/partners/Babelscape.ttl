@@ -6,4 +6,4 @@ kgpartner:Babelscape a schema:Partner ;
   schema:country "IT" ;
   schema:url <http://babelscape.com/> ;
   schema:kind "Beneficiaries" ;
-  schema:logo "" .
+  schema:logo "babelscape.png" .
