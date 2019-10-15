@@ -6,4 +6,4 @@ kgpartner:PaderbornUniversity a schema:Partner ;
   schema:country "DE" ;
   schema:url <https://www.uni-paderborn.de/> ;
   schema:kind "Beneficiaries" ;
-  schema:logo "" .
+  schema:logo "paderbornuni.png" .
