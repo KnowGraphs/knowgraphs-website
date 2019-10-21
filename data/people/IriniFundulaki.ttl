@@ -5,5 +5,5 @@ kg:IriniFundulaki a schema:Person ;
   schema:name "Irini Fundulaki" ;
   schema:namePrefix "Dr." ;
   schema:role kg:Mentor ;
-  schema:photo "" ;
+  schema:photo "irinifundulaki.jpg" ;
   schema:link "" .
