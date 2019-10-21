@@ -6,4 +6,4 @@ kgpartner:FORTH a schema:Partner ;
   schema:country "GR" ;
   schema:url <https://www.forth.gr/> ;
   schema:kind "Beneficiaries" ;
-  schema:logo "" .
+  schema:logo "forth.png" .

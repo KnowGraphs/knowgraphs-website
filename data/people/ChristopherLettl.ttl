@@ -5,5 +5,5 @@ kg:ChristopherLettl a schema:Person ;
   schema:name "Christopher Lettl" ;
   schema:namePrefix "Prof. Dr." ;
   schema:role kg:Mentor ;
-  schema:photo "" ;
+  schema:photo "christopherlettl.jpg" ;
   schema:link "" .
