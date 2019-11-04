@@ -1,0 +1,31 @@
+{
+  "name": "knowgraphs-website",
+  "version": "1.0.0",
+  "description": "KnowGraphs website",
+  "main": "index.js",
+  "dependencies": {
+    "gatsby": "^2.17.7",
+    "gatsby-theme-rdfsite": "^0.15.0",
+    "react": "^16.11.0",
+    "react-dom": "^16.11.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "develop": "gatsby develop",
+    "build": "gatsby build",
+    "papers": "papers # add your user and tags as args, e.g.: papers dice-research simba dice",
+    "docker:build": "docker build -t rdf-site .",
+    "docker:run": "docker run -it --rm -p 8000:80 rdf-site"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dice-group/knowgraphs-website.git"
+  },
+  "keywords": [],
+  "author": "Tim Ermilov <yamalight@gmail.com> (http://codezen.net)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dice-group/knowgraphs-website/issues"
+  },
+  "homepage": "https://github.com/dice-group/knowgraphs-website#readme"
+}

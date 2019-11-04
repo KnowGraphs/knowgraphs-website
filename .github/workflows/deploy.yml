@@ -14,26 +14,16 @@ jobs:
         uses: actions/setup-node@v1
         with:
           node-version: 12
-      - name: install and lint
-        working-directory: ./scripts
+      - name: install
         run: |
           yarn install
-          yarn lint
       - name: update papers
-        working-directory: ./scripts
         run: |
-          rm ../data/**/_Example.ttl
+          rm ./data/**/_Example.ttl
           yarn papers
       - name: build
-        working-directory: ./scripts
         run: yarn build
-      - name: prepare deploy
-        working-directory: ./scripts
-        run: |
-          cp exoframe.json public/
-          cp Dockerfile public/
       - name: deploy
-        working-directory: ./scripts/public
         run: npx exoframe -u -e https://exoframe.codezen.net -t $EXO_TOKEN
         env:
           EXO_TOKEN: ${{ secrets.EXO_TOKEN }}
@@ -44,6 +34,8 @@ jobs:
       - uses: actions/checkout@v1
       - name: merge master to develop
         run: |
+          git config --global user.email "bot@dice-research.org"
+          git config --global user.name "DICE Bot"
           git remote set-url origin https://x-access-token:$GITHUB_TOKEN@github.com/$GITHUB_REPOSITORY
           git checkout develop
           git merge origin/master

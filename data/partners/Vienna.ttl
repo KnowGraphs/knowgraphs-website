@@ -6,4 +6,4 @@ kgpartner:Wirtschafts a schema:Partner ;
   schema:country "AU" ;
   schema:url <https://www.wu.ac.at/en/> ;
   schema:kind "Beneficiaries" ;
-  schema:logo "" .
+  schema:logo "wirtschaftsuniversitätwien.png" .
