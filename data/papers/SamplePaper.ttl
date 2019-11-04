@@ -2,9 +2,9 @@
 @prefix kgpapers: <https://dice-research.org/papers/> .
 @prefix schema: <https://schema.dice-research.org/> .
 
-kgpapers:Example a schema:Publication ;
+kgpapers:Sample a schema:Publication ;
   schema:type "Publication" ;
-  schema:title "Example publication" ;
+  schema:title "Sample publication" ;
   schema:tag "MOLE", "dice", "gho", "peer-reviewed", "simba" ;
   schema:publicationType "article" ;
   schema:year "2013" ;
