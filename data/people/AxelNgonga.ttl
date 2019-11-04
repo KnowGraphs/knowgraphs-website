@@ -5,6 +5,7 @@ kg:AxelCyrilleNgongaNgomo a schema:Person ;
   schema:name "Axel-Cyrille Ngonga Ngomo" ;
   schema:namePrefix "Prof. Dr." ;
   schema:role kg:Mentor ;
+  schema:contact kg:MainContact ;
   schema:phone <tel:+49-525-16-03342> ;
   schema:email <mailto:axel.ngonga@upb.de> ;
   schema:photo "ngonga.jpg" ;

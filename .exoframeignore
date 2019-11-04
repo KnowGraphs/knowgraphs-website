@@ -1,0 +1,13 @@
+.cache
+.git
+data
+images
+node_modules
+pages
+src
+gatsby-config.js
+package.json
+postcss.config.js
+README.md
+tailwind.config.js
+yarn.lock
