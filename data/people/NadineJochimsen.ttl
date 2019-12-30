@@ -7,7 +7,7 @@ kg:NadineJochimsen a schema:Person ;
   schema:role kg:ProjectManager ;
   schema:contact kg:AdditionalContact ;
   schema:phone <tel:+49-341-9732367> ;
-  schema:email <mailto:jochimsen@informatik.uni-leipzig.de> ;
+  schema:email <mailto:nadine.jochimsen@uni-paderborn.de> ;
   schema:photo "jochimsen.jpg" ;
   schema:link "http://aksw.org/NadineJochimsen.html" .
 
