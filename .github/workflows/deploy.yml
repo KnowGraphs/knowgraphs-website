@@ -16,13 +16,13 @@ jobs:
           node-version: 12
       - name: install
         run: |
-          yarn install
+          npm install
       - name: update papers
         run: |
           rm ./data/**/_Example.ttl
-          yarn papers
+          npm run papers
       - name: build
-        run: yarn build
+        run: npm run build
       - name: deploy
         run: npx exoframe -u -e https://exoframe.codezen.net -t $EXO_TOKEN
         env:
