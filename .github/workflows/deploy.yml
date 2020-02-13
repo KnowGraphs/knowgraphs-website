@@ -24,9 +24,9 @@ jobs:
       - name: build
         run: npm run build
       - name: deploy
-        run: npx exoframe -u -e https://exoframe.codezen.net -t $EXO_TOKEN
+        run: npx exoframe -u -e https://knowgraphs-website.cs.upb.de -t $EXO_TOKEN_NEW
         env:
-          EXO_TOKEN: ${{ secrets.EXO_TOKEN }}
+          EXO_TOKEN_NEW: ${{ secrets.EXO_TOKEN_NEW }}
   syncBranches:
     needs: deploy
     runs-on: ubuntu-latest
