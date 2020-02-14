@@ -4,8 +4,8 @@
   "description": "KnowGraphs website",
   "main": "index.js",
   "dependencies": {
-    "gatsby": "^2.19.12",
-    "gatsby-theme-rdfsite": "^1.0.0",
+    "gatsby": "^2.19.17",
+    "gatsby-theme-rdfsite": "^1.1.0",
     "react": "^16.12.0",
     "react-dom": "^16.12.0"
   },
