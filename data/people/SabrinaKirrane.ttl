@@ -5,5 +5,5 @@ kg:SabrinaKirrane a schema:Person ;
   schema:name "Sabrina Kirrane" ;
   schema:namePrefix "Dr." ;
   schema:role kg:Mentor ;
-  schema:photo "sabrinakirrane.jpeg" ;
+  schema:photo "sabrinakirrane.jpg" ;
   schema:link "" .
