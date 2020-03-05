@@ -3,7 +3,7 @@
 
 kg:SabrinaKirrane a schema:Person ;
   schema:name "Sabrina Kirrane" ;
-  schema:namePrefix "Dr." ;
+  schema:namePrefix "Assoc. Prof. Dr." ;
   schema:role kg:Mentor ;
   schema:photo "sabrinakirrane.jpg" ;
-  schema:link "" .
+  schema:link <https://www.wu.ac.at/infobiz/team/sabrina-kirrane> .
