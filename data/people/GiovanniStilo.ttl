@@ -3,7 +3,7 @@
 
 kg:GiovanniStilo a schema:Person ;
   schema:name "Giovanni Stilo" ;
-  schema:namePrefix "" ;
+  schema:namePrefix "Dr." ;
   schema:role kg:Mentor ;
   schema:photo "" ;
   schema:link "" .

@@ -6,4 +6,4 @@ kgpartner:Metaphacts a schema:Partner ;
   schema:country "DE" ;
   schema:url <https://www.metaphacts.com/> ;
   schema:kind "Associated" ;
-  schema:logo "" .
+  schema:logo "metaphacts.png" .

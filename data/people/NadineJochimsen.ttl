@@ -6,8 +6,7 @@ kg:NadineJochimsen a schema:Person ;
   schema:namePrefix "" ;
   schema:role kg:ProjectManager ;
   schema:contact kg:AdditionalContact ;
-  schema:phone <tel:+49-341-9732367> ;
+  schema:phone <tel:+49-525-1601764> ;
   schema:email <mailto:nadine.jochimsen@uni-paderborn.de> ;
   schema:photo "jochimsen.jpg" ;
   schema:link "http://aksw.org/NadineJochimsen.html" .
-
