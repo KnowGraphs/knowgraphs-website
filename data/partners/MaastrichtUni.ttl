@@ -6,4 +6,4 @@ kgpartner:Maastricht a schema:Partner ;
   schema:country "NL" ;
   schema:url <https://www.maastrichtuniversity.nl/> ;
   schema:kind "Beneficiaries" ;
-  schema:logo "" .
+  schema:logo "masstricht.jpg" .
