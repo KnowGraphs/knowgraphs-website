@@ -12,4 +12,5 @@ kgpapers:Sample a schema:Publication ;
   schema:authorName "Aidan Hogan", "Eva Blomqvist", "Michael Cochez", "Claudia d'Amato", "Gerard de Melo", "Claudio Gutierrez", "José Emilio Labra Gayo", "Sabrina Kirrane", "Sebastian Neumaier", "Axel Polleres", "Axel-Cyrille Ngonga Ngomo", "Sabbir M. Rashid", "Anisa Rula", "Lukas Schmelzeisen", "Juan Sequeda", "Steffen Staab", "Antoine Zimmermann" ;
   schema:url <https://arxiv.org/abs/2003.02320> ;
   schema:pdfUrl <https://arxiv.org/pdf/2003.02320.pdf> ;
-  schema:source "ArXiV" .
+  schema:source "ArXiV" ;
+  schema:bibsonomyId <https://www.bibsonomy.org/bibtex/2c99086e74a9181752d9830dfc2806f61/aksw> .
