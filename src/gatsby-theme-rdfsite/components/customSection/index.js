@@ -8,7 +8,7 @@ const CustomSection = React.forwardRef((_, ref) => {
       <div className="container">
         <div className="section-header">
           <h1 className="title" ref={ref}>
-            Research areas
+            Welcome to KnowGraphs
           </h1>
         </div>
 
