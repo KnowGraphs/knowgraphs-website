@@ -6,4 +6,4 @@ kg:SteffenStaab a schema:Person ;
   schema:namePrefix "Prof. Dr." ;
   schema:role kg:Mentor ;
   schema:photo "stephanstab.png" ;
-  schema:link <http://west.uni-koblenz.de/about-us/team/steffen-staab> .
+  schema:link <https://www.ipvs.uni-stuttgart.de/institute/team/Staab-00001/> .
