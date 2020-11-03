@@ -1,0 +1,38 @@
+name: Weekly deploy
+
+on:
+  schedule:
+    # every sunday
+    - cron: '0 0 * * 0'
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v1
+      - name: Use Node.js 12
+        uses: actions/setup-node@v1
+        with:
+          node-version: 12
+      - name: configure DNS server
+        run: |
+          sudo mkdir /usr/lib/systemd/resolved.conf.d
+          echo "[Resolve]" > resolved.conf
+          echo "DNS=8.8.8.8" >> resolved.conf
+          sudo mv resolved.conf /usr/lib/systemd/resolved.conf.d/resolved.conf
+          sudo systemctl daemon-reload
+          sudo systemctl restart systemd-networkd
+          sudo systemctl restart systemd-resolved
+      - name: install
+        run: |
+          npm install
+      - name: update papers
+        run: |
+          rm ./data/**/_Example.ttl
+          npm run papers
+      - name: build
+        run: npm run build
+      - name: deploy
+        run: npx exoframe -u -e https://knowgraphs-website.cs.upb.de -t $EXO_TOKEN_NEW
+        env:
+          EXO_TOKEN_NEW: ${{ secrets.EXO_TOKEN_NEW }}
