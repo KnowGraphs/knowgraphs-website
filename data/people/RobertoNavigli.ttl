@@ -5,5 +5,5 @@ kg:RobertoNavigli a schema:Person ;
   schema:name "Roberto Navigli" ;
   schema:namePrefix "Prof. Dr." ;
   schema:role kg:Mentor ;
-  schema:photo "" ;
+  schema:photo "Roberto.jpg" ;
   schema:link "http://wwwusers.di.uniroma1.it/~navigli/" .

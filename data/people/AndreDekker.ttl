@@ -5,5 +5,5 @@ kg:AndreDekker a schema:Person ;
   schema:name "Andre Dekker" ;
   schema:namePrefix "Prof. Dr." ;
   schema:role kg:Mentor ;
-  schema:photo "" ;
-  schema:link "" .
+  schema:photo "andre.dekker.jpg" ;
+  schema:link "https://www.maastrichtuniversity.nl/andre.dekker" .
