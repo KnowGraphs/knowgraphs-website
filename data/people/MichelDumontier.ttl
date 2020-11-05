@@ -6,4 +6,4 @@ kg:MichelDumontier a schema:Person ;
   schema:namePrefix "Prof. Dr." ;
   schema:role kg:Mentor ;
   schema:photo "dumontier.jpg" ;
-  schema:link <https://www.maastrichtuniversity.nl/michel.dumontier​> .
+  schema:link "https://www.maastrichtuniversity.nl/michel.dumontier" .
