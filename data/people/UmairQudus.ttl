@@ -1,0 +1,22 @@
+@prefix kg: <https://dice-research.org/> .
+@prefix schema: <https://schema.dice-research.org/> .
+
+kg:UmairQudus a schema:Person ;
+  schema:name "Umair Qudus" ;
+  schema:role kg:ESR ;
+  schema:photo "UmairQudus.jpg" ;
+  schema:namePrefix "" ;
+  schema:email <mailto:uqudus@campus.uni-paderborn.de> ;
+  schema:content """<h3>Title: Establishing the veracity of Knowledge Graphs</h3>
+
+<p>Current approaches for fact validation can be categorized into two families: (i) approaches that use unstructured textual sources and (ii) approaches that use structured knowledge graphs as reference knowledge. Few of these latter approaches are: (a) meta-path-based approaches, (b) predicate-path-based, and (c) corroborative-path-based approaches. All these approaches can be used to check a single fact. However, when it comes to calculating the veracity of a complete knowledge graph, none of these approaches are applicable due to their high runtime.</p>
+
+<p>The following major accomplishments are expected in this research project:
+<ol>
+<li>Systematic survey of the field of fact checking over knowledge graphs. This will be designed as a living document and updated during the project.</li>
+<li>A scalable hybrid approach utilizing both document corpora and knowledge graphs for the sake of fact checking. We will aim to outperform the state of the art w.r.t. both runtime and F-measure.</li>
+<li>A novel approach to evaluate the veracity of large-scale knowledge graphs efficiently. Such an approach is currently not available.</li>
+<li>Provide evidence and semi-automatic means to fix erroneous content.</li>
+</ol>
+</p>
+""" .

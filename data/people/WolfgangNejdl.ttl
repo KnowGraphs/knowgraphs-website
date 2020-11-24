@@ -5,5 +5,5 @@ kg:WolfgangNejdl a schema:Person ;
   schema:name "Wolfgang Nejdl" ;
   schema:namePrefix "Prof. Dr." ;
   schema:role kg:Mentor ;
-  schema:photo "" ;
+  schema:photo "woflgang_nejdl.jpg" ;
   schema:link "" .

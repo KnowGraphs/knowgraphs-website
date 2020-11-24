@@ -1,0 +1,8 @@
+@prefix kg: <https://dice-research.org/> .
+@prefix schema: <https://schema.dice-research.org/> .
+
+kg:MarcFlorea a schema:Person ;
+  schema:name "Marc Florea" ;
+  schema:role kg:ESR ;
+  schema:photo "MarcFlorea.jpg" ;
+  schema:link "https://www.rug.nl/staff/m.o.florea" .
