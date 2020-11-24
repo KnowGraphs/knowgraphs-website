@@ -2,7 +2,7 @@
 @prefix kgpapers: <https://dice-research.org/papers/> .
 @prefix schema: <https://schema.dice-research.org/> .
 
-kgpapers:Sample a schema:Publication ;
+kgpapers:KnowledgeGraphs a schema:Publication ;
   schema:type "Publication" ;
   schema:title "Knowledge Graphs" ;
   schema:tag "dice", "gho", "peer-reviewed", "simba", "knowgraphs" ;

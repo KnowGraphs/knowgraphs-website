@@ -1,0 +1,16 @@
+@prefix kg: <https://dice-research.org/> .
+@prefix kgpapers: <https://dice-research.org/papers/> .
+@prefix schema: <https://schema.dice-research.org/> .
+
+kgpapers:FedSPARQLEnginesEval a schema:Publication ;
+  schema:type "Publication" ;
+  schema:title "An Empirical Evaluation of Cost-basedFederated SPARQL Query ProcessingEngines" ;
+  schema:tag "dice", "peer-reviewed", "simba", "knowgraphs" ;
+  schema:publicationType "article" ;
+  schema:year "2020" ;
+  schema:author kg:UmairQudus, kg:MuhammadSaleem, kg:AxelCyrilleNgongaNgomo, kg:YoungKooee;
+  schema:authorName "Umair Qudus", "Muhammad Saleem", "Axel-Cyrille Ngonga Ngomo", "Young-koo Lee" ;
+  schema:pdfUrl <http://www.semantic-web-journal.net/system/files/swj2604.pdf> ;
+  schema:source "Semantic Web Journal" ;
+  schema:bibsonomyId "" .
+
