@@ -1,0 +1,11 @@
+@prefix kg: <https://dice-research.org/> .
+@prefix schema: <https://schema.dice-research.org/> .
+
+kg:JiayiDu a schema:Person ;
+  schema:name "Jiayi Du" ;
+  schema:role kg:ESR ;
+  schema:photo "" ;
+  schema:namePrefix "" ;
+  schema:email "" ;
+  schema:content """<h3>Work Description</h3>
+<p>The project title is managing polymorphic knowledge graphs.</p>""" .

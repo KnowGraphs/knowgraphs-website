@@ -1,0 +1,14 @@
+@prefix kg: <https://dice-research.org/> .
+@prefix schema: <https://schema.dice-research.org/> .
+
+kg:AbelardoCarlosMartinezLorenzo a schema:Person ;
+  schema:name "Abelardo Carlos Martinez Lorenzo" ;
+  schema:role kg:ESR ;
+  schema:photo "AbelardoCarlosMartinezLorenzo.jpg" ;
+  schema:namePrefix "" ;
+  schema:email "" ;
+  schema:content """<h3>ESR Profile description</h3>
+<p>I am currently an ESR at Babelscape in collaboration with Sapienza University (Rome, Italy).</p>
+
+<h3>Work Description</h3>
+<p>My research project is focuses on Multilingual Semantic Parsing using Lexicalized Knowledge Graphs. I propose a language-independent graph representation of natural language which will allow us to represent sentences expressing the same meaning across different languages with the same graph representation. After that, I am going to create a Truly Semantic Parser which can generate graph representations from sentences.</p>""" .

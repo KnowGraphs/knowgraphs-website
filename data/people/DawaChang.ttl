@@ -1,0 +1,14 @@
+@prefix kg: <https://dice-research.org/> .
+@prefix schema: <https://schema.dice-research.org/> .
+
+kg:DawaChang a schema:Person ;
+  schema:name "Dawa Chang" ;
+  schema:role kg:ESR ;
+  schema:photo "DawaChang.jpg" ;
+  schema:namePrefix "" ;
+  schema:email "" ;
+  schema:content """<h3>ESR Profile Description</h3>
+<p>Dawa Chang is a Project staff member and a PhD student at the Institute for Information Business at Wirtschaftsuniversität Wien (WU Vienna), Austria. She received her bachelor's degree in IT Business from the KAIST (Korea Advanced Institute of Science and Technology) of South Korea in 2008 and her master's degree in Information Management from the KAIST in 2018. Before joining the team, she worked as a tax manager in the big-four accounting firm and led several IT projects for tax service innovation. Dawa‘s research is focused on Knowledge Graphs as a supporting technology for innovation.</p>
+
+<h3>Work Description</h3>
+<p>The working title is "Knowledge Graphs (KGs) as a supporting technology for innovation", and its main objective is to investigate how and under what conditions can KGs support tasks in the innovation process such as ideation and idea selection. In particular, this research project focuses on new products and services development and the potential of exploiting KGs for ideation and idea selection tasks. To this end, it will develop appropriate methods, processes, standards and/or guidelines to support the development of innovative products and services.</p>""" .

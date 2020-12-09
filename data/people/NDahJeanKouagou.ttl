@@ -1,0 +1,15 @@
+@prefix kg: <https://dice-research.org/> .
+@prefix schema: <https://schema.dice-research.org/> .
+
+kg:NDahJeanKouagou a schema:Person ;
+  schema:name "N'Dah Jean Kouagou" ;
+  schema:role kg:ESR ;
+  schema:photo "NDahJeanKouagou.jpg" ;
+  schema:namePrefix "" ;
+  schema:email "" ;
+  schema:content """<h3>ESR Profile Description</h3>
+<p>I am the ESR number 11. I work at Paderborn University as a research assistant under the supervision of Prof. Dr. Axel-Cyrille Ngonga Ngomo.</p>
+
+<h3>Work Description</h3>
+<p>My project aims at building efficient methods for (especially symbolic) machine learning on knowledge graphs. Current approaches for symbolic learning on knowledge graphs do not scale up to the sizes of modern knowledge graphs, which can easily reach billions of facts over millions of entities. My work hence includes but is not limited to devising novel learning approaches (e.g., refinement operators) which are able to scale to large knowledge graphs. I aim to exploit symbolic and subsymbolic learning to this end. Hence, I also intend to build new embedding models for knowledge bases as well as performing improvements of some of
+the existing concept learners.</p>""" .

@@ -16,7 +16,7 @@ jobs:
           npm install
       - name: update papers
         run: |
-          rm ./data/**/_Example.ttl
+          rm -f ./data/**/_Example.ttl
           npm run papers
       - name: build
         run: npm run build

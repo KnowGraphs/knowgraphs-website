@@ -1,0 +1,14 @@
+@prefix kg: <https://dice-research.org/> .
+@prefix schema: <https://schema.dice-research.org/> .
+
+kg:InesAkaichi a schema:Person ;
+  schema:name "Inès Akaichi" ;
+  schema:role kg:ESR ;
+  schema:photo "InesAkaichi.png" ;
+  schema:namePrefix "" ;
+  schema:email "" ;
+  schema:content """<h3>ESR Profile Description</h3>
+<p>Inès is an ESR and a PhD candidate at Vienna university of Economics and Business, under the supervision of Dr.Sabrina Kirrane. Inès holds a master degree in Big Data Management And Analytics from the university of Tours, France. Inés's research interests include Big Data and Data Science, Semantic Web, knowledge representation and reasoning over constraints (e.g., access constraints, usage policies, regulatory obligations).</p>
+
+<h3>Work Description</h3>
+<p>Inès' research focuses on knowledge graph representation. The initial working title of her research topic is constraint-aware reasoning and querying over distributed knowledge graphs. Inès is currently working on a survey of scientific literature about usage control.</p>""" .
