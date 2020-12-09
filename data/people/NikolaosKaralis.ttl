@@ -7,4 +7,8 @@ kg:NikolaosKaralis a schema:Person ;
   schema:photo "NikolaosKaralis.jpg" ;
   schema:namePrefix "" ;
   schema:email <mailto:nkaralis@mail.uni-paderborn.de> ;
-  schema:content """Nikolaos is an ESR and a PhD candidate at the DICE research group of the University of Paderborn, under the supervision of Prof. Dr. Axel-Cyrille Ngonga Ngomo. Nikolaos' research work studies the problem of knowledge graph representation (WP1). More specifically, his goal is to determine whether there can be a universal representation of knowledge graphs that can be used in order to represent, query and manipulate knowledge graphs of different graph data models in a unified manner.""" .
+  schema:content """<h3>ESR Profile Description</h3>
+<p>Nikolaos is an ESR and a PhD candidate at the DICE research group of the University of Paderborn, under the supervision of Prof. Dr. Axel-Cyrille Ngonga Ngomo.</p>
+
+<h3>Work Description</h3>
+<p>Nikolaos' research work studies the problem of knowledge graph representation (WP1). More specifically, his goal is to determine whether there can be a universal representation of knowledge graphs that can be used in order to represent, query and manipulate knowledge graphs of different graph data models in a unified manner.</p>""" .

@@ -7,7 +7,9 @@ kg:UmairQudus a schema:Person ;
   schema:photo "UmairQudus.jpg" ;
   schema:namePrefix "" ;
   schema:email <mailto:uqudus@campus.uni-paderborn.de> ;
-  schema:content """<h3>Title: Establishing the veracity of Knowledge Graphs</h3>
+  schema:content """
+<h3>Work Description</h3>
+<p><b>Title: Establishing the veracity of Knowledge Graphs</b></p>
 
 <p>Current approaches for fact validation can be categorized into two families: (i) approaches that use unstructured textual sources and (ii) approaches that use structured knowledge graphs as reference knowledge. Few of these latter approaches are: (a) meta-path-based approaches, (b) predicate-path-based, and (c) corroborative-path-based approaches. All these approaches can be used to check a single fact. However, when it comes to calculating the veracity of a complete knowledge graph, none of these approaches are applicable due to their high runtime.</p>
 

@@ -1,0 +1,14 @@
+@prefix kg: <https://dice-research.org/> .
+@prefix schema: <https://schema.dice-research.org/> .
+
+kg:BoXiong a schema:Person ;
+  schema:name "Bo Xiong" ;
+  schema:role kg:ESR ;
+  schema:photo "BoXiong.png" ;
+  schema:namePrefix "" ;
+  schema:email "" ;
+  schema:content """<h3>ESR Profile Description</h3>
+<p>I am currently a doctoral researcher at the Institute of Parallel and Distributed Systems (IPVS) of the University of Stuttgart, where my superviosor is Prof. Steffen Staab.</p>
+
+<h3>Work Description</h3>
+<p>My research interests lie primarily on knowledge graph construction from data embedding, in particularly, learning embedding for multimodal data (e.g. texts, graphs) and complex structured data (e.g. hierarchies, power-law distributed data).</p>""" .

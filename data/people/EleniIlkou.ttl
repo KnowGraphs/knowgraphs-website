@@ -1,0 +1,18 @@
+@prefix kg: <https://dice-research.org/> .
+@prefix schema: <https://schema.dice-research.org/> .
+
+kg:EleniIlkou a schema:Person ;
+  schema:name "Eleni Ilkou" ;
+  schema:role kg:ESR ;
+  schema:photo "EleniIlkou.png" ;
+  schema:namePrefix "" ;
+  schema:email "" ;
+  schema:content """<h3>ESR Profile Description</h3>
+<p>Eleni Ilkou was born in Thessaloniki, Greece in February 1994. In 2012, she graduated high school with excellence, receiving a distinction price from the State Scholarship Foundation of Greece (IKY) for entering the Mathematics Department of University of Ioannina (UOI). During her Bachelor, she worked as a teaching assistant for an introductory course of to programming in C and C++. She gained teaching experience as a mathematics tutor via multiple internships in private schools and mathematical competitions, where she discovered her interest in education. In 2016, she was awarded an Erasmus scholarship and joined the Greek High School of Brussels, where she taught classes, prepared successfully students for mathematics competitions and participated in school programs and seminars as a co-leader.</p>
+
+Having an interest in smart education led her to follow the Master in Applied Computer Science, Vrije Universiteit Brussel, with the specialization in smart cities. In 2019, she fulfilled her Master thesis working on a novel framework for structuring educational material, under the guidance of Prof. Dr. Beat Signer. Later she worked in the AI Lab Brussels as a researcher in an applied research project, focusing on explainable AI and ontologies.
+Currently, she is an Early Stage Researcher in the L3S Research Center in Gottfried Wilhelm Leibniz Universität Hannover under the guidance of Prof. Dr. Wolfgang Nejdl. Her scientific interests concentrated on hybrid knowledge graphs in educational applications.</p>
+
+<h3>Work Description</h3>
+<p>Eleni is an ESR at L3S Research Center in Gottfried Wilhelm Leibniz Universität Hannover, under the supervision of Prof. Dr. Wolfgang Nejdl. Eleni's research work studies the problem of knowledge graph representation (WP1), and more specifically the hybrid representations of knowledge graphs. Her goal is to investigate commonalities and differences between existing static and continuous models for knowledge graph representation and come up with a synthesizing hybrid representation model.</p>
+""" .

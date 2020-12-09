@@ -1,0 +1,14 @@
+@prefix kg: <https://dice-research.org/> .
+@prefix schema: <https://schema.dice-research.org/> .
+
+kg:EfstratiosKoulierakis a schema:Person ;
+  schema:name "Efstratios Koulierakis" ;
+  schema:role kg:ESR ;
+  schema:photo "EfstratiosKoulierakis.jpg" ;
+  schema:namePrefix "" ;
+  schema:email "" ;
+  schema:content """<h3>ESR Profile Description</h3>
+<p>ESR 15. Working in STeP research group at the University of Groningen. PhD research supervised by Professor Mifsud Bonnici and Dr. Milaj-Weishaar.</p>
+
+<h3>Work Description</h3>
+<p>Elaborating on legal aspects of knowledge graph applications. Focusing on how knowledge graph applications can comply with the  General Data Protection Regulation, by design and by default.</p>""" .
