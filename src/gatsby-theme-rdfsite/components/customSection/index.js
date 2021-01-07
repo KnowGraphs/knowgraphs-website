@@ -35,7 +35,8 @@ const CustomSection = React.forwardRef((_, ref) => {
 <p>The <a href="team">KnowGraphs team</a> will address these pillars by researching and developing novel <a href="publications">methods, models and frameworks</a> using a cross-disciplinary mix of methods from Web Science, Data Science, Knowledge Representation, Knowledge Engineering, Big Data, data law, and business innovation. The <a href="partners">consortium</a> will apply its results across sectors, i.e., in domains including personalized medicine, Industry 4.0, question answering, personal assistants and Web search.</p>
 <p>&nbsp;</p>
 <p>Do not hesitate to contact us if you want to know more or are interested in collaborating with us.</p>
-    
+<p>&nbsp;</p>
+<p>Our <a href="/ws2021">first winter school</a> will take place in January 2021.</p>
       </div>
     </div>
   );
