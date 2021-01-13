@@ -1,0 +1,7 @@
+@prefix kg: <https://dice-research.org/> .
+@prefix schema: <https://schema.dice-research.org/> .
+
+kg:PereLluisHuguetCabot  a schema:Person ;
+  schema:name "Pere-Lluis Huguet Cabot" ;
+  schema:namePrefix "" ;
+  schema:role kg:Mentor .
