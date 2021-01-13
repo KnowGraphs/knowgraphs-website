@@ -1,0 +1,7 @@
+@prefix kg: <https://dice-research.org/> .
+@prefix schema: <https://schema.dice-research.org/> .
+
+kg:MaryamMohamadi  a schema:Person ;
+  schema:name "Maryam Mohamadi" ;
+  schema:namePrefix "" ;
+  schema:role kg:ESR .
