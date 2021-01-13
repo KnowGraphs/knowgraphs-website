@@ -2,6 +2,6 @@
 @prefix schema: <https://schema.dice-research.org/> .
 
 kg:OzgeErten  a schema:Person ;
-  schema:name "Ozge Erten" ;
+  schema:name "Özge Erten" ;
   schema:namePrefix "" ;
   schema:role kg:Mentor .
