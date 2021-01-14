@@ -4,4 +4,6 @@
 kg:PereLluisHuguetCabot  a schema:Person ;
   schema:name "Pere-Lluis Huguet Cabot" ;
   schema:namePrefix "" ;
-  schema:role kg:Mentor .
+  schema:role kg:ESR ;
+  schema:photo "PereLluisHuguetCabot.jpg" ;
+  schema:link "https://littlepea13.github.io/" .
