@@ -4,7 +4,7 @@
 
 kgpapers:FedSPARQLEnginesEval a schema:Publication ;
   schema:type "Publication" ;
-  schema:title "An Empirical Evaluation of Cost-basedFederated SPARQL Query ProcessingEngines" ;
+  schema:title "An Empirical Evaluation of Cost-basedFederated SPARQL Query Processing Engines" ;
   schema:tag "dice", "peer-reviewed", "simba", "knowgraphs" ;
   schema:publicationType "article" ;
   schema:year "2020" ;
