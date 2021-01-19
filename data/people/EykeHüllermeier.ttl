@@ -5,5 +5,5 @@ kg:EykeHüllermeier a schema:Person ;
   schema:name "Eyke Hüllermeier" ;
   schema:namePrefix "Prof. Dr." ;
   schema:role kg:Mentor ;
-  schema:photo "" ;
-  schema:link "" .
+  schema:photo "Huellermeyer.png" ;
+  schema:link "https://www.uni-paderborn.de/person/48129/" .

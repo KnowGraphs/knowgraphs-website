@@ -4,4 +4,14 @@
 kg:OzgeErten  a schema:Person ;
   schema:name "Özge Erten" ;
   schema:namePrefix "" ;
-  schema:role kg:Mentor .
+  schema:photo "OezgeErten.jpg" ;
+  schema:role kg:ESR ;
+  schema:content """### ESR Profile Description
+
+Özge Erten was born in Izmir, Turkey in 1993. She finished her Bachelor in Computer Engineering at Ege University with a focus on data management. After that, she completed her Master's degree at the same university. Özge's Master's thesis was about operations on Graph Databases. 
+
+In 2021, Özge started as a PhD student at Maastricht University under the supervision of Prof. Michel Dumontier. Özge is especially interested in big data and Knowledge Graphs.
+""" .
+
+
+
