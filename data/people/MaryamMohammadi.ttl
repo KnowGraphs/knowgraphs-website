@@ -1,0 +1,19 @@
+@prefix kg: <https://dice-research.org/> .
+@prefix schema: <https://schema.dice-research.org/> .
+
+kg:MaryamMohammadi  a schema:Person ;
+  schema:name "Maryam Mohammadi" ;
+  schema:namePrefix "" ;
+  schema:photo "MaryamMohammadi.jpg" ;
+  schema:role kg:ESR ;
+  schema:content """
+### ESR Profile Description
+
+Maryam Mohammadi was born in 1993. She finished her master in Computer Science at the Shahid Beheshti University. Maryam Master's thesis was about drug-drug interaction prediction problem.
+
+In 2021, Maryam started as a PhD candidate at Maastricht University under the supervision of Prof. Michel Dumontier. She is especially interested in Metadata and Knowledge Graphs. 
+
+""" .
+
+
+
