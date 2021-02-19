@@ -6,4 +6,4 @@ kgpartner:Semantic a schema:Partner ;
   schema:country "AU" ;
   schema:url <https://semantic-web.com/> ;
   schema:kind "Associated" ;
-  schema:logo "" .
+  schema:logo "swc-logo.svg" .
