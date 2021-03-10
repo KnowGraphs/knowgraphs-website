@@ -1,0 +1,16 @@
+@prefix kg: <https://dice-research.org/> .
+@prefix kgpapers: <https://dice-research.org/papers/> .
+@prefix schema: <https://schema.dice-research.org/> .
+
+kgpapers:LinkedLegalDataLandscape a schema:Publication ;
+  schema:type "Publication" ;
+  schema:title "The linked legal data landscape: linking legal data across different countries" ;
+  schema:tag "knowgraphs" ;
+  schema:publicationType "article" ;
+  schema:year "2021" ;
+  schema:author kg:ErwinFiltz, kg:SabrinaKirrane, kg:AxelPolleres;
+  schema:authorName "Erwin Filtz", "Sabrina Kirrane", "Axel Polleres";
+  schema:url <https://doi.org/10.1007/s10506-021-09282-8> ;
+  schema:pdfUrl <https://link.springer.com/content/pdf/10.1007/s10506-021-09282-8.pdf> ;
+  schema:source "Artificial Intelligence and Law" ;
+  schema:bibsonomyId "" .
