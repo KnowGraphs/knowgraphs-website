@@ -4,6 +4,7 @@ import React from 'react';
 
 const CustomSection = React.forwardRef((_, ref) => {
   return (
+  <div>
     <div className="hero-body">
       <div className="container">
         <div className="section-header">
@@ -36,9 +37,17 @@ const CustomSection = React.forwardRef((_, ref) => {
 <p>&nbsp;</p>
 <p>Do not hesitate to contact us if you want to know more or are interested in collaborating with us.</p>
 <p>&nbsp;</p>
-<p>Our <a href="/ws2021">first winter school</a> will take place in January 2021.</p>
+          <h2 className="title">
+            Job Vacancies
+          </h2>
+
+<p>The following positions are available in the context of the KnowGraphs project:</p>
+<ul>
+<li><a href="/downloads/06.1-20210423-KnowGraphs.pdf">PhD student</a> at <a href="">Universität Stuttgart</a>, Germany</li>
+</ul>
       </div>
     </div>
+  </div>
   );
 });
 
