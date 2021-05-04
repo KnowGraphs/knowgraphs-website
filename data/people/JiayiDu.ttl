@@ -8,6 +8,7 @@ kg:JiayiDu a schema:Person ;
   schema:namePrefix "" ;
   schema:email "" ;
   schema:content """
+
 ### ESR Profile Description
 
 I am ESR-10 within working package 3, and am currently a PhD candidate at the Analytic Computing research group of the University of Stuttgart, under the supervision of Prof. Dr. Steffen Staab.
