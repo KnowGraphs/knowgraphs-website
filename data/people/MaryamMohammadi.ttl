@@ -7,6 +7,7 @@ kg:MaryamMohammadi  a schema:Person ;
   schema:photo "MaryamMohammadi.jpg" ;
   schema:role kg:ESR ;
   schema:content """
+
 ### ESR Profile Description
 
 Maryam Mohammadi was born in 1993. She finished her master in Computer Science at the Shahid Beheshti University. Maryam Master's thesis was about drug-drug interaction prediction problem.
