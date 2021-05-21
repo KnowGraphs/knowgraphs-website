@@ -43,7 +43,7 @@ const CustomSection = React.forwardRef((_, ref) => {
 
 <p>The following positions are available in the context of the KnowGraphs project:</p>
 <ul>
-<li><a href="/downloads/06.1-20210423-KnowGraphs.pdf">PhD student</a> at <a href="">Universität Stuttgart</a>, Germany</li>
+<li><a href="/downloads/08.1-20210521-KnowGraphs.pdf">PhD student</a> at <a href="">Universität Stuttgart</a>, Germany</li>
 </ul>
       </div>
     </div>
