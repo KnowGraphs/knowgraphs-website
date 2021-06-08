@@ -15,4 +15,4 @@ In the section dedicated to the topic of Data Graphs, the authors formally defin
 
 There are different types of schemata that can be used in the context of KGs. A semantic schema can be used in order to define the meaning of high-level terms, such as classes (e.g., classes), whereas a validating schema can be used to define constraints on a data graph. Last but not least, the authors stress the importance of associating entities of a KG with an identifiers and present identification examples in the context of RDF.
 
-The slides of the presentation can be found [here](knowgraphs-website/static/downloads/karalis_colloquium_slides.pdf)
+The slides of the presentation can be found [here](/downloads/karalis_colloquium_slides.pdf)
