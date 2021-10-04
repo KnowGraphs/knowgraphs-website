@@ -6,9 +6,9 @@ kg:EfstratiosKoulierakis a schema:Person ;
   schema:role kg:ESR ;
   schema:photo "EfstratiosKoulierakis.jpg" ;
   schema:namePrefix "" ;
-  schema:email "" ;
+  schema:email "e.koulierakis<at>step-rug.nl" ;
   schema:content """<h3>ESR Profile Description</h3>
-<p>ESR 15. Working in STeP research group at the University of Groningen. PhD research supervised by Professor Mifsud Bonnici and Dr. Milaj-Weishaar.</p>
+<p>ESR 15. Working at the Faculty of Law at the University of Groningen, Member of the STeP research group. PhD research supervised by Professor Mifsud Bonnici and Dr. Milaj-Weishaar. Bachelor degree from the Law-School  of the National and Kapodistrian University of Athens, Master of Laws (LL.M.) from KU Leuven (cum laude).</p>
 
 <h3>Work Description</h3>
-<p>Elaborating on legal aspects of knowledge graph applications. Focusing on how knowledge graph applications can comply with the  General Data Protection Regulation, by design and by default.</p>""" .
+<p>Efstratios Koulierakis elaborates on legal aspects of knowledge graph applications. He focuses on article 25 of the General Data Protection Regulation (GDPR). According to article 25 GDPR, digital applications should comply with data protection rules, ‘by design and by default’. His work explores the relation between knowledge graphs and data protection by design and by default.</p>""" .
