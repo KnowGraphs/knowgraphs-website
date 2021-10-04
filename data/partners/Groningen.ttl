@@ -6,4 +6,4 @@ kgpartner:Groningen a schema:Partner ;
   schema:country "NL" ;
   schema:url <https://www.rug.nl/?lang=en> ;
   schema:kind "Beneficiaries" ;
-  schema:logo "" .
+  schema:logo "rugr_logoen_rood_rgb.jpeg" .
