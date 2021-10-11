@@ -10,6 +10,6 @@ kgpapers:EduCOR a schema:Publication ;
   schema:year "2021" ;
   schema:author kg:EleniIlkou, kg:HasanAbuRasheed, kg:MohammadrezaTavakoli, kg:SherzodHakimov, kg:GaborKismihok, kg:SoerenAuer, kg:WolfgangNejdl;
   schema:authorName "Eleni Ilkou", "Hasan Abu-Rasheed", "Mohammadreza Tavakoli", "Sherzod Hakimov", "Gabor Kismihok", "Sören Auer", "Wolfgang Nejdl" ;
-  schema:url <https://link.springer.com/content/pdf/10.1007%2F978-3-030-88361-4_32.pdf> ;
+  schema:url <https://link.springer.com/chapter/10.1007/978-3-030-88361-4_32> ;
   schema:pdfUrl <https://link.springer.com/content/pdf/10.1007%2F978-3-030-88361-4_32.pdf> ;
   schema:source "International Semantic Web Conference" .
