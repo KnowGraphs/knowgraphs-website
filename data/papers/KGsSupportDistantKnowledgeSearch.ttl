@@ -1,0 +1,15 @@
+@prefix kg: <https://dice-research.org/> .
+@prefix kgpapers: <https://dice-research.org/papers/> .
+@prefix schema: <https://schema.dice-research.org/> .
+
+kgpapers:KGsSupportDistantKnowledgeSearch a schema:Publication ;
+  schema:type "Publication" ;
+  schema:title "Exploring the Potential of Knowledge Graphs to Support Distant Knowledge Search for Innovation" ;
+  schema:tag "knowgraphs" ;
+  schema:publicationType "article" ;
+  schema:year "2021" ;
+  schema:author kg:DawaChang ;
+  schema:authorName "Dawa Chang" ;
+  schema:url <https://dl.acm.org/doi/abs/10.1145/3462741.3466673?casa_token=povCzIaTZvkAAAAA:u2p61hOdt1p5Ivs38vfEez_ICwHG5fYghqVydQ08kprDal__4HyOoc8kI7QuFLIu0cDC0thrJlfR> ;
+  schema:pdfUrl <https://dl.acm.org/doi/pdf/10.1145/3462741.3466673?casa_token=xjuCXXPiqS8AAAAA:xEiPk_5pG5TMNUpkKifY3J3fC4muhsVLc6dhKDbMS-Rh4kYRV6iIX9MvNQooOVZhDmy9PToY9Bda> ;
+  schema:source "13th ACM Web Science Conference" .
