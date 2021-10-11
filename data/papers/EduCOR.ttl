@@ -1,0 +1,15 @@
+@prefix kg: <https://dice-research.org/> .
+@prefix kgpapers: <https://dice-research.org/papers/> .
+@prefix schema: <https://schema.dice-research.org/> .
+
+kgpapers:EduCOR a schema:Publication ;
+  schema:type "Publication" ;
+  schema:title "EduCOR: An Educational and Career-Oriented Recommendation Ontology" ;
+  schema:tag "knowgraphs" ;
+  schema:publicationType "article" ;
+  schema:year "2021" ;
+  schema:author kg:EleniIlkou, kg:HasanAbuRasheed, kg:MohammadrezaTavakoli, kg:SherzodHakimov, kg:GaborKismihok, kg:SoerenAuer, kg:WolfgangNejdl;
+  schema:authorName "Eleni Ilkou", "Hasan Abu-Rasheed", "Mohammadreza Tavakoli", "Sherzod Hakimov", "Gabor Kismihok", "Sören Auer", "Wolfgang Nejdl" ;
+  schema:url <https://link.springer.com/content/pdf/10.1007%2F978-3-030-88361-4_32.pdf> ;
+  schema:pdfUrl <https://link.springer.com/content/pdf/10.1007%2F978-3-030-88361-4_32.pdf> ;
+  schema:source "International Semantic Web Conference" .
