@@ -1,0 +1,14 @@
+---
+date: 2021-10-12
+title: Work Package 4 Meeting
+---
+
+
+## *Dynamic consent in personal health-related Knowledge Graphs*
+
+
+In today's meeting, Marcu Florea, PhD student at the University of Groningen and ESR number 12 in KnowGraphs, presented his research on withdrawal of consent for processing personal data in biomedical research. After introducing the topic and presenting the current findings, the discussion focused on potential connections between law and knowledge graphs technology. The group discussed how and whether legal requirements can be automated and tackled upon the interdisciplinary challenges of collaboration between the researchers. 
+
+The representatives of Babelscape attended the meeting and the application of natural language processing for case law analysis was briefly discussed.
+   
+The slides of the presentation can be found [here](/downloads/2021-10-12-WP4_meeting.pdf)
