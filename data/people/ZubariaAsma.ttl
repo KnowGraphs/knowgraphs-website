@@ -1,0 +1,12 @@
+@prefix kg: <https://dice-research.org/> .
+@prefix schema: <https://schema.dice-research.org/> .
+
+kg:ZubariaAsma a schema:Person ;
+  schema:name "Zubaria Asma" ;
+  schema:role kg:ESR ;
+  schema:photo "ZubariaAsma.jpg" ;
+#  schema:namePrefix "" ;
+#  schema:email "" ;
+  schema:content """<h3>ESR Profile Description</h3>
+<p>Zubaria Asma has got her Master degree in Software Engineering from the National University of Computer and Emerging Sciences, Islamabad Pakistan in 2018. During the period of 2018–2021, she worked as a lecturer at Pakistan University.
+Currently, she started her Ph.D. at the University of Crete and working as an ESR at FORTH.</p>""" .
