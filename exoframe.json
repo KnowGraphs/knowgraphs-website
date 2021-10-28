@@ -1,4 +1,5 @@
 {
   "name": "knowgraphs-website",
-  "domain": "knowgraphs.eu"
+  "domain": "knowgraphs.eu",
+  "restart": "always"
 }
