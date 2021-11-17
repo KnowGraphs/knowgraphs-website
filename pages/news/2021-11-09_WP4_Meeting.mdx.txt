@@ -1,0 +1,9 @@
+---
+date: 2021-11-09
+title: Work Package 4 Meeting
+---
+
+
+# A Knowledge Graph of ideas for new product/service development
+
+Dawa Chang, a PhD student at the Vienna University of Economics and Business (WU) and the ESR number 13 in KnowGraphs project, has presented her research on developing a method and a proof of concept application for supporting the idea generation and idea selection of a company with a Knowledge Graph Database (DB) of the existing ideas and their selection result. She summarized the progress of her research while introducing the innovation ontology concept, the theory of solving an inventive problem (TRIZ) and several mathematical measuring methods that could be used for scoring the idea-novelty. After the presentation, the Work Package 4 group and the special guests invited in the meeting - Eleni Ilkou (ESR1), Pere-Lluis Huguet Cabot (ESR4), Bo Xiong (ESR5) and Dr. Peter Haase (the founder/director of Metaphacts) - discussed what could be additionally considered and the techniques/methods utilizable for the research.
