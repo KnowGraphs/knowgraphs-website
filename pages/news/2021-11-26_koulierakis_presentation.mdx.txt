@@ -1,0 +1,11 @@
+---
+date: 2021-11-26
+title: 'Research Colloquium Presentation of upcoming publication by Efstratios Koulierakis'
+---
+
+# The Challenge of Incorporating Legal Rules into Digital Applications: a Theoretical Exploration of Article 25 GDPR
+## Efstratios Koulierakis - ESR 15, University of Groningen
+
+Efstratios Koulierakis (ESR 15) presented his upcoming publication on data protection by design and by default, in accordance with article 25 GDPR. The title of the paper is ‘The Challenge of Incorporating Legal Rules into Digital Applications: a Theoretical Exploration of Article 25 GDPR’. The paper presents how article 25 GDPR pursues to regulate the conduct of stake holders in the technology industry. It argues that the obligation of compliance by design and by default does not reach as far as imposing an obligation of full automatic compliance to data controllers. Furthermore, the paper elaborates on the elements to be considered for the identification of the necessary safeguards in accordance with article 25 GDPR.
+
+The slides of the presentation can be found [here](/downloads/2021-11-26-Koulierakis_colloquium_slides.pdf).
