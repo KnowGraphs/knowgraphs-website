@@ -3,12 +3,12 @@ path: '/ws2022'
 title: 'Winter School 2022'
 ---
 
-The first winter school of the KnowGraphs takes place on February 23rd – 25th, 2021. The goals of this school are:
+The second winter school of the KnowGraphs takes place on January 31st – February 2nd, 2022. The goals of this school are:
 <ol>
 <li>Disciplinary Training<br/>
   <ul>
     <li>Topic: Scientific foundations</li>
-    <li>Approach: Beginner talks on techniques related to KGs</li>
+    <li>Approach: Tutorials on Techniques related to KGs</li>
   </ul>
 </li>
 <li>Complementary Training<br/>
@@ -19,68 +19,85 @@ The first winter school of the KnowGraphs takes place on February 23rd – 25th,
 </li>
 <li>Professional Development<br/>
   <ul>
-    <li>Topic: Possible professional paths in science and industry, IPR</li>
-    <li>Approach: Industry talks + talk on data and law</li>
+    <li>Topic: Possible professional paths in Science and Industry, IPR</li>
+    <li>Approach: Industry talks and Talks on Data and Law</li>
   </ul>
 </li>
 </ol>
 
 ## Programme
 
-Details of the single talks will be added soon.
+### On Knowledge Graph Representation Formalisms
+_Presenter_: <a href="">Prof. Dr. Axel  Polleres</a>
 
-### What are knowledge graphs? 
-_Presenter_: <a href="https://www.tib.eu/de/forschung-entwicklung/data-science-digital-libraries/mitarbeiterinnen-und-mitarbeiter/soeren-auer/">Prof. Dr. Sören Auer</a>
+_Abstract_: 
 
-_Abstract_: The availability of large-scale datasets has unleashed an enormous potential of making computers smarter and gave rise to cognitive computing. In order to realize the potential of AI a common understanding of the structure and meaning of data (e.g. to be used as training or evaluation data) must be established. We can leverage vocabularies, Linked Data, knowledge graphs or Semantic Data Lakes for that purpose. In this talk we give an overview on knowledge graphs, which all help to realize the emerging concept of hybrid AI, where large-scale, rich semantic data and knowledge tightly interacts with machine learning and analytics. We discuss some enterprise applications and present with the Open Research Knowledge Graph a use case and approach for semantically describing and organizing scientific contributions to empower researchers to master the flood of staticscientific publications.
+### Application talk 1: Use of knowledge graphs in the health domain. Lessons learned,
+_Presenter_: <a href="">Dr. Irini Fundulaki</a>
 
-### Application talk 1: Intelligent Content Extraction from Documents using Machine Learning and Knowledge Graphs 
-_Presenter_: <a href="https://ai4bd.com/">Dr. Martin Voigt</a>
+_Abstract_: 
 
-_Abstract_: Artificial Intelligence (AI) is implemented in business basically in a project-driven manner. Due to unclear and wrong expectation on customer-side, due to the lack of joint knowledge in various fields like data management, machine & deep learning (ML, DL) or DevOps to deploy the solutions, many of the projects fail, are in-efficient and never made it into production. The only reasonable approach to implement AI in businesses, especially SMEs, is to provide tailored AI-based products. These illustrates fast the benefits, are integrated in enterprise IT environments in short time frames without required AI-knowledge at customer-side and deliver business value immediately. In this talk, we give a technical overview of our ®Cognitive Business Robotics (CBR) platform and focus on the product CBR Secretary, which allows for content extraction from various kinds of documents. Therefore, it facilities technologies from the ML areas of Natural Language Processing and Computer Vision as well from Knowledge Graphs. We will emphasize on the separation of concerns in different points of
-view which enables to easy product integration with various customers and domains. 
+### Knowledge graph embeddings
+_Presenter_: <a href="">Dr. Michel Cochez</a>
 
-### Introduction to Description Logics – to classical reasoning and beyond
-_Presenter_: <a href="https://lat.inf.tu-dresden.de/~turhan/">PD. Dr.-Ing. habil. Anni-Yasmin Turhan</a>
+_Abstract_: 
 
-_Abstract_: Description Logics (DLs) are an intensively studied family of logics tailored towards building ontologies and reasoning over these. Most DLs are decidable fragments of first-order logic and are the basis for most OWL profiles. The formal semantics of DLs allow to define reasoning services that, in turn facilitate the extraction of implicit knowledge from ontologies. In this course we introduce the building blocks of DL ontologies and the fundamental DL reasoning services, such as subsumption and query answering. The second half of the course gives an overview on inferences for maintaining ontologies and on reasoning under non-classical semantics that offer resilience against inconsistencies. 
+### Challenges for Efficiently Creating and Maintaining Knowledge Graphs
+_Presenter_: <a href="">Prof. Dr. Maria-Esther Vidal</a>
 
-### Knowledge Graphs in Natural Language Processing
-_Presenter_: <a href="http://wwwusers.di.uniroma1.it/~navigli/">Prof. Dr. Roberto Navigli</a>
+_Abstract_: Knowledge graphs (KGs) have gained momentum as expressive data structures to represent the convergence of data and knowledge spread across various data sources. Albeit coined by the research community for several decades, KGs play an increasingly relevant role in scientific and industrial areas. In particular, the rich amount of data existing in encyclopedic KGs like DBpedia and Wikidata, or domain-specific KGs (e.g., Bio2RDF) demonstrate the feasibility of integrating factual domain-specific knowledge following the Linked Data principles.
+Data integrated into existing KGs are collected in heterogeneous formats or physically distributed over multiple data sources. The declarative definition of KGs using W3C recommended languages like R2RML and RML have gained momentum to provide transparent, maintainable, and traceable processes of KG creation. Nevertheless, KG creation is laborious, and various parameters like number and type of mapping assertions and data source complexities like large volume, variety, and high duplicate rates may considerably affect the performance of KG creation. Thus, the process of KG creation demands specialized data management techniques to scale the process of KG creation up.
+In this tutorial, we present the challenges faced at data integration and knowledge engineering levels to empower the pipelines of KG creation. We will explain the role of knowledge extraction, mapping languages, integrity constraints, and provenance. We will further discuss techniques for planning and transforming heterogeneous data into RDF KGs following declarative mapping assertions specified in R2RML and RML. Given a set of mapping assertions, the planner provides an optimized execution plan by partitioning and scheduling the execution of the mapping assertions. Moreover, at the execution level,  we will discuss the role of physical operators in efficiently performing the optimized execution plans. The impact of these techniques will be addressed on state-of-the-art engines for RDF KG creation and existing benchmarks. Lastly, we will present strategies for efficiently validating integrity constraints over KGs specified using the W3C recommended language SHACL.
+As a result, at the end of the tutorial, the attendees will put in perspective the benefits of planning the execution of pipelines for KG creation and validation, and the role of data management for efficiently constructing and assessing the quality of KGs.
 
-_Abstract_: This session will be an overview of Knowledge Graphs in Natural Language Processing (NLP) and particularly in the areas of word-level and sentence-level semantics, as well as multilinguality. At the lexical level, we will analyze the structure of historical resources like WordNet and then move on to more recent endeavors like BabelNet (and how to build such resources from unstructured information). At the sentence level, we will overview current resources in the area, including VerbAtlas, which is strongly connected to WordNet and BabelNet, and the Abstract Meaning Representation formalism. We will survey the use of KGs within recent NLP tasks, such as Word Sense Disambiguation, Semantic Role Labeling and Semantic Parsing.
+_Bio_: Prof. Dr. Maria-Esther Vidal is a full professor at the Leibniz University of Hannover and leads the Scientific Data Management (SDM) group at TIB-Leibniz Information Centre for Science and Technology. She is also a member of the L3S Research Centre, and a full professor (retired) at Universidad Simón Bolívar (USB), Venezuela. She has made significant contributions to data management, semantic data integration, and machine learning over knowledge graphs. Maria-Esther is a co-author of more than 220 peer-reviewed articles in Semantic Web, Databases, Bioinformatics, and Artificial Intelligence. She has been awarded the Science Award on Responsible Research by Stifterverband with the recommendation of the Leibniz Association. Maria-Esther is also actively shaping her research communities. She has been an editorial board member of renowned journals (e.g., JWS, JDIQ) and general chair, co-chair, senior reviewer of major scientific events (e.g., WWW, ISWC, and AAAI). Under her direction, her team has developed technologies of predominant relevance in the whole process of knowledge graph creation from heterogeneous data and query processing. She serves as an expert in several advisory boards, summer schools, and doctoral consortiums. She has advised more than 25 doctoral students, and more than 120 Master and bachelor students in Computer Science. She has been a doctoral and habilitation committee member in France, Italy, the Netherlands, Germany, Ireland, Argentina, Uruguay, and Venezuela.
 
-### Application talk 2: PoolParty Semantic Suite and Knowledge Graph Management
-_Presenter_: <a href="https://semantic-web.com/management/">Martin Kaltenböck</a> and <a href="https://semantic-web.com/management/">Artem Revenko</a>
 
-_Abstract_: The amount of structured, semi-structured and unstructured data in organisations is growing heavily and data and information is often stored in silos inside of department solutions, but organisations are interested in unified 360 degree views on their data and information to be able to make precise and sustainable decisions. Enterprise Knowledge Graphs can solve this problem by integrating data and information from heterogeneous sources in different formats by mapping it to one or more central knowledge models and linking it to each other in the form of a Knowledge Graph. This talk will provide a short introduction into the problem statement and why and how Knowledge Graphs can help, furthermore it gives a short introduction into PoolParty Semantic Suite, a Semantic Middleware for powerful Knowledge Graph applications and finally it will provide an overview of the most important use cases that Enterprise Knowledge Graphs can solve.
 
-_Further reading_:
-* [The Knowledge Graph CookBook](https://www.poolparty.biz/the-knowledge-graph-cookbook)
-* [Entity Linking related literature](https://arxiv.org/abs/2004.15016)
-* [NER related literature](http://ceur-ws.org/Vol-2722/ai4legal2020-paper-1.pdf)
+### Application talk 2: Addressing Gartner's challenges for Knowledge Graph implementatio
+_Presenter_: <a href="">Silver Oliver</a> 
 
-### Machine Learning on KGs 
-_Presenter_: <a href="https://www.ipvs.uni-stuttgart.de/institute/team/Staab-00001/">Prof. Dr. Steffen Staab</a>
+_Abstract_: Gatner's Hype Cycle for Artificial Intelligence paper identifies 4 obstacles for knowledge graph implementation. In this talk we will take a practical look at addressing these obstacles drawing upon real world case studies.
 
-### Data ownership, control and access
-_Presenter_: <a href="https://nm.wu.ac.at/nm/en:kirrane">Asst. Prof. Dr. Sabrina Kirrane</a>
+_Bio_: Silver is an Information Architect who has been working on knowledge graph implementations for the last 15 years. He is a trained Information Professional who focus is on ontology development and implementation. Previously head of Information Architecture at the BBC Silver has worked for Data Language for last 10 years covering a breadth of domains.
 
-_Abstract_: The goal of this talk is to introduce the audience to the topic of data ownership, control and access. We will start by discussing different types of constraints, for instance access policies, usage control, and regulatory requirements. Following on from we will examine how policy languages can be used for policy specification, enforcement, and governance. Finally we will examine initiatives, such as Digi.me and Solid, that aim to give individuals and organisations more control over their data. 
+### Knowledge Graph Federations 
+_Presenter_: <a href="">Prof. Maribel Acosta</a>
 
-### Application talk 3: FAIR data applications using Knowledge Graphs
-_Presenter_: <a href="https://metaphacts.com/company">Dr. Peter Haase</a>
+_Abstract_: 
 
-_Abstract_: This talk will highlight our lessons learned and best practices for building Knowledge Graph-driven FAIR applications to drive digital transformation. We will focus on agile data management and governance with Knowledge Graphs, following the FAIR Data principles. We will cover topics such as data catalogues, ontology modelling, taxonomy integration, user experience development, and how low-code platforms enable the rapid delivery of value.
+### Application Talk 3: Managing and Analyzing Legal Knowledge Graphs
+_Presenter_: <a href="">María Navas-Loro</a> and <a href="">Erwin Filtz</a>
 
-### Legal Aspects of KGs 
-_Presenter_: <a href="https://www.rug.nl/staff/g.p.mifsud.bonnici/">Prof. Dr. Jeanne Pia Mifsud Bonnici</a>
+_Abstract_: There is a strong demand for access to legal information. For instance, the European Union portal EUR-Lex, which publishes legislation, case law, and other documents related to EU law, serves more than two million documents monthly. Nevertheless, the information required by different stakeholders (such as organizations, companies or citizens) is usually distributed through various sources and presented in different formats and languages, turning legal information retrieval into a time-consuming and tedious process. Legal Knowledge Graphs offer a solution to this situation. In this session, we will present several use cases of legal Knowledge Graphs, highlight the main challenges found and analyse the main lacks in the domain and the lessons learnt. We will go through the different phases of the construction of these Knowledge Graphs, from the search for sources of documents and their main impediments to the extraction of information from them to their subsequent transformation into graph elements.
+
+_Bio_: María Navas-Loro is a postdoctoral researcher in the Ontology Engineering Group (Universidad Politécnica de Madrid, Spain). She is specialised in temporal information processing in the legal domain and has collaborated in national and European projects, such as LPSBigger, Lynx or the current NextProcurement. She is currently working on improving the extraction of events from texts in different languages and domains, and her interest covers natural language processing techniques and knowledge representation.
+Erwin Filtz has a background in law and information systems and is working as a research scientist for Siemens. His interests are focused on Knowledge Graphs in the legal domain with the goal to increase accessibility to legal information by applying various tools and techniques from various domains. 
+
+
+### Knowledge Graphs and Deep Learning for Analyzing Legal Documents
+_Presenter_: <a href="">Prof. Manolis Koubarakis</a>
+
+_Abstract_: In this talk I will present the platform Nomothesia (legislation.di.uoa.gr/) and its knowledge graph which encodes Greek legislation as linked data. I will also discuss deep learning techniques for named entity recognition and topic classification for Greek legal documents. Finally, I will present
+open problems in this exciting research area. 
+
+_Bio_: Manolis Koubarakis is a Professor and Director of Graduate Studies in the Dept. of Informatics and Telecommunications, National and Kapodistrian University of Athens. He leads the Artificial Intelligence team (http://ai.di.uoa.gr). He holds a Ph.D. in Computer Science, from the National Technical University of Athens, an M.Sc. in Computer Science, from the University of Toronto, and a diploma (B.Sc.) in Mathematics, from the University of Crete. He is a Fellow of EurAI (European Association for Artificial Intelligence) since 2015 and President of the Hellenic Association for Artificial Intelligence. He is a member of the Advisory Board that implements the Hellenic National Strategy for Artificial Intelligence. He has published more than 200 papers that have been widely cited (7099 citations and h-index 44 in Google Scholar) in the areas of Artificial Intelligence (especially Knowledge Representation), Databases, Semantic Web and Linked Geospatial Data (especially Earth observation data). His research has been financially supported with a total amount exceeding 8 million Euros by the European Commission, the Hellenic Foundation for Research and Innovation, the Greek General Secretariat for Research and Technology, the European Space Agency and industry. 
+
+
+### Knowledge Graphs: Trust, Privacy, and Transparency from a Legal Governance Approach
+_Presenter_: <a href="">Prof. Daniel Schwabe</a>
+
+_Abstract_: In this talk I will examine the issues and requirements for Knowledge Graphs to support Trust, Privacy and Transparency when consuming online information. I will present a framework that enables integrating normative and legal aspects, illustrated with a concrete use case.
+
+_Bio_: Professor at the Department of Informatics, Catholic University in Rio de Janeiro (PUC-Rio) from 1981 to 2020, where he led the TecWeb Lab. He received his BSc degree in Mathematics from PUC-Rio in 1975, his MSc degree in Computer Science also from PUC-Rio in 1976, and his PhD degree in Computer Science from UCLA 1981. He is currently a visiting researcher at the Jozef Stefan Institute in Slovenia, and at the Information Sciences Institute (ISI)/USC in the USA. He has over 250 publications, H-Index of 41, and 8913 citations (Google Scholar). In the 1990s and early 2000s he was one of the pioneers in the Web Engineering field, and later in Semantic Web technologies and applications. More recently he has focused on designing, building and implementing Knowledge Graphs, with particular emphasis on providing support for Trust, Privacy and Transparency aspects when consuming online information.
+
+
 
 ## Practical Information
 
 The winter school will take place online using the BigBlueButton platform. Registered participants will receive a link to the room via mail before the winter school starts.
 
-People external to the KnowGraphs project can participate in the winter school. Please contact <a href="mailto:michael.roeder@uni-paderborn.de">Michael Röder</a> before February 20th via mail for registration.
+People external to the KnowGraphs project can participate in the winter school. Please contact <a href="mailto:fundul@ics.forth.gr">Dr. Irini Fundulaki</a> before January 25th via mail for registration.
 
 ## Schedule
 
@@ -94,17 +111,18 @@ All times are in CET.
     {
       key: '9:30 – 11:30',
       value: (<div>
-        What are knowledge graphs? <br/> <a href="https://www.tib.eu/de/forschung-entwicklung/data-science-digital-libraries/mitarbeiterinnen-und-mitarbeiter/soeren-auer/">
-          Prof. Dr. Sören Auer
+        <a href="">
+         On Knowledge Graph Representation Formalisms <br/> 
+          Prof. Dr. Axel Polleres
         </a></div>),
     },
     { key: '11:30 – 11:45', value: 'Coffee break ☕' },
     {
       key: '11:45 – 12:30',
       value: (
-        <div> Application talk 1: Intelligent Content Extraction from Documents using Machine Learning and Knowledge Graphs<br/>
-          <a href="https://ai4bd.com/">
-            Dr. Martin Voigt
+        <div> Application talk 1: Use of knowledge graphs in the health domain. Lessons learned<br/>
+          <a href="">
+            Dr. Irini Fundulaki
           </a>
         </div>
       ),
@@ -113,9 +131,9 @@ All times are in CET.
     {
       key: '13:30 – 15:30',
       value: (
-        <div> Introduction to Description Logics – to classical reasoning and beyond<br/>
-          <a href="https://lat.inf.tu-dresden.de/~turhan/">
-            PD. Dr.-Ing. habil. Anni-Yasmin Turhan
+        <div> Knowledge graph embeddings<br/>
+          <a href="">
+            Michael Cochez
           </a>
         </div>
       ),
@@ -145,9 +163,9 @@ All times are in CET.
       key: '9:30 – 11:30',
       value: (
         <div>
-          Knowledge Graphs in Natural Language Processing <br/> 
-          <a href="http://wwwusers.di.uniroma1.it/~navigli/">
-            Prof. Dr. Roberto Navigli
+          Challenges for Efficiently Creating and Maintaining Knowledge Graphs <br/> 
+          <a href="">
+            Prof. Dr. Maria-Esther Vidal
           </a>
         </div>),
     },
@@ -155,8 +173,8 @@ All times are in CET.
     {
       key: '11:45 – 12:30',
       value: (
-        <div> Application talk 2: PoolParty Semantic Suite and Knowledge Graph Management<br/>
-          <a href="https://semantic-web.com/management/">Martin Kaltenböck</a> and <a href="https://semantic-web.com/management/">Artem Revenko</a>
+        <div> Application talk 2: Addressing Gartner's challenges for Knowledge Graph implementation<br/>
+          <a href="">Silver Oliver</a>
         </div>
       ),
     },
@@ -164,9 +182,9 @@ All times are in CET.
     {
       key: '13:30 – 15:30',
       value: (
-        <div> Machine Learning on KGs <br/>
-          <a href="https://www.ipvs.uni-stuttgart.de/institute/team/Staab-00001/">
-            Prof. Dr. Steffen Staab
+        <div> Knowledge Graph Federations <br/>
+          <a href="">
+            Maribel Acosta
           </a>
         </div>
       ),
@@ -184,9 +202,9 @@ All times are in CET.
     {
       key: '9:30 – 11:30',
       value: (
-        <div>Data ownership, control and access<br/> 
-          <a href="https://nm.wu.ac.at/nm/en:kirrane">
-            Asst. Prof. Dr. Sabrina Kirrane
+        <div>Application talk 3: Managing and Analyzing Legal Knowledge Graphs<br/> 
+          <a href="">
+            Erwin Filtz and María Navas-Loro
           </a>
         </div>),
     },
@@ -194,9 +212,9 @@ All times are in CET.
     {
       key: '11:45 – 12:30',
       value: (
-        <div> Application talk 3: FAIR data applications using Knowledge Graphs<br/>
-          <a href="https://metaphacts.com/company">
-            Dr. Peter Haase
+        <div> Knowledge Graphs and Deep Learning for Analyzing Legal Documents<br/>
+          <a href="">
+            Prof. Manolis Koubarakis
           </a>
         </div>
       ),
@@ -205,9 +223,9 @@ All times are in CET.
     {
       key: '13:15 – 15:00',
       value: (
-        <div> Legal Aspects of KGs <br/>
-          <a href="https://www.rug.nl/staff/g.p.mifsud.bonnici/">
-            Prof. Dr. Jeanne Pia Mifsud Bonnici
+        <div> Knowledge Graphs: Trust, Privacy, and Transparency from a Legal Governance Approach <br/>
+          <a href="">
+            Prof. Daniel Schwabe
           </a>
         </div>
       ),
