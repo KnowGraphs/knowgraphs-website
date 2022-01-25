@@ -1,0 +1,15 @@
+---
+date: 2021-12-10
+title: Research Colloquium Presentation by Özge Erten
+---
+
+
+## Dynamic Word Embeddings for Evolving Semantic Discovery
+Authors:Zijun Yao, Yifan Sun, Weicong Ding, Nikhil Rao, Hui Xiong
+Year: 2018
+
+
+The authors tackle alignment with the time-aware joint embedding method for capturing the evolution of words. The paper contains a technique that I can be inspired by for my research, so I have chosen this for my presentation.​ The authors propose to learn temporal embeddings in all time slices concurrently, and apply regularization terms to smooth embedding changes across time. Experiments show that alignment through regularization provides better results than traditional methods.
+
+
+The slides of the presentation can be found [here](/downloads/yyyy-mm-dd-familyname_colloquium_slides.pdf)
