@@ -5,8 +5,8 @@ kg:EleniIlkou a schema:Person ;
   schema:name "Eleni Ilkou" ;
   schema:role kg:ESR ;
   schema:photo "EleniIlkou.png" ;
-  schema:namePrefix "" ;
-  schema:email "" ;
+  schema:namePrefix "Eleni Ilkou" ;
+  schema:email "ilkou(at)l3s(dot)de" ;
   schema:content """<h3>ESR Profile Description</h3>
 <p>Eleni Ilkou was born in Thessaloniki, Greece in February 1994. In 2012, she graduated high school with excellence, receiving a distinction price from the State Scholarship Foundation of Greece (IKY) for entering the Mathematics Department of University of Ioannina (UOI). During her Bachelor, she worked as a teaching assistant for an introductory course of to programming in C and C++. She gained teaching experience as a mathematics tutor via multiple internships in private schools and mathematical competitions, where she discovered her interest in education. In 2016, she was awarded an Erasmus scholarship and joined the Greek High School of Brussels, where she taught classes, prepared successfully students for mathematics competitions and participated in school programs and seminars as a co-leader.</p>
 
