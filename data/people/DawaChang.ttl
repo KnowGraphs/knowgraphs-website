@@ -6,7 +6,7 @@ kg:DawaChang a schema:Person ;
   schema:role kg:ESR ;
   schema:photo "DawaChang.jpg" ;
   schema:namePrefix "" ;
-  schema:email "" ;
+  schema:email <mailto:dawa.chang@wu.ac.at> ;
   schema:content """<h3>ESR Profile Description</h3>
 <p>Dawa Chang is a Project staff member and a PhD student at the Institute for Information Business at Wirtschaftsuniversität Wien (WU Vienna), Austria. She received her bachelor's degree in IT Business from the KAIST (Korea Advanced Institute of Science and Technology) of South Korea in 2008 and her master's degree in Information Management from the KAIST in 2018. Before joining the team, she worked as a tax manager in the big-four accounting firm and led several IT projects for tax service innovation. Dawa‘s research is focused on Knowledge Graphs as a supporting technology for innovation.</p>
 
