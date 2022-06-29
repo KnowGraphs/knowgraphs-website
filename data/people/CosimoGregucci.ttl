@@ -6,6 +6,7 @@ kg:CosimoGregucci a schema:Person ;
   schema:role kg:ESR ;
   schema:photo "CosimoGregucci.png" ;
   schema:namePrefix "" ;
+  schema:email <mailto:cosimo.gregucci@ipvs.uni-stuttgart.de> ;
   schema:content """<h3>ESR Profile Description</h3>
 <p>Cosimo Gregucci was born in Castellaneta, Italy in August 1996. In 2015 he graduated high school with honours. During high school he attended two English courses in UK and he got the FCE Cambridge Certification. In 2018 he graduated with a Bachelor of Computer Science and Automation Engineering at Politecnico di Bari with honours  During his Master he won an Erasmus scholarship and joined the Universidad Politecnica de Madrid (UPM) for one semester. During his Erasmus exchange he had the chance to learn Spanish language and to connect with lots of international students. In 2021 he graduated with a Master of Computer Science Engineering at Politecnico di Bari with honours  He fulfilled his Master thesis working on a PoC for semantic-based real time Quality of Experience adaptation for multimedia streams, under the guidance of Prof. Dr. Michele Ruta. Later he worked as a Data Engineer at Data Reply.</p>
 
