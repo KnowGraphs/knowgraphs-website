@@ -1,0 +1,17 @@
+---
+date: 2022-11-09
+title: Work Package 4 Meeting
+---
+
+
+## *Progress Report*
+ 
+The four ESRs in Work Package 4 discussed about the process of preparing the Deliverable 4.1 in the meeting. 
+
+All four ESRs have drafted the parts about their respective research, and the parts included the state-of-the-art, introduction, motivation, research methods and dataset or experiments for each research.
+
+Dr. Sabrina Kirrane, the Work Package 4 leader, has reviewed the draft and given comments and feedback to all four ESRs explaining what the deliverable aims for and should include.
+
+Based on the comments and feedback from Dr. Sabrina Kirrane, the ESRs have had an additional meeting to discuss how to adjust the draft to follow the purpose of the deliverable and its unified format.
+
+Thanks to previous discussions and feedback, all four ESRs were able to revise the draft smoothly, and the deliverable is currently being prepared for the following reviews.
