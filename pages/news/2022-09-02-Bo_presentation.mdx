@@ -1,0 +1,11 @@
+---
+date: 2022-09-02
+title: 'Faithful Embeddings for EL++ Knowledge Bases'
+---
+
+# Faithful Embeddings for EL++ Knowledge Bases
+## Bo Xiong - ESR 5, University of Stuttgart
+
+Recently, increasing efforts are put into learning continual representations for symbolic knowledge bases (KBs). However, these approaches either only embed the data-level knowledge (ABox) or suffer from inherent limitations when dealing with concept-level knowledge (TBox), i.e., they cannot faithfully model the logical structure present in the KBs. We present BoxEL, a geometric KB embedding approach that allows for better capturing the logical structure (i.e., ABox and TBox axioms) in the description logic EL++. BoxEL models concepts in a KB as axis-parallel boxes that are suitable for modeling concept intersection, entities as points inside boxes, and relations between concepts/entities as affine transformations. We show theoretical guarantees (soundness) of BoxEL for preserving logical structure. Namely, the learned model of BoxEL embedding with loss 0 is a (logical) model of the KB. Experimental results on (plausible) subsumption reasonings and a real-world application for protein-protein prediction show that BoxEL outperforms traditional knowledge graph embedding methods as well as state-of-the-art EL++ embedding approaches.
+
+The slides of the presentation can be found [here](/downloads/2022-09-02-Bo_colloquim_slides).
