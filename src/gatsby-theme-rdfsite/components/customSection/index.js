@@ -7,7 +7,7 @@ const CustomSection = React.forwardRef((_, ref) => {
   <div>
     <div className="hero-body">
       <div className="container">
-        <p><em>The KnowGraphs <a href="/ws2023/">Winter School 2023</a> has been announced!</em></p>
+        <!--<p><em>The KnowGraphs <a href="/ws2023/">Winter School 2023</a> has been announced!</em></p>-->
       
         <div className="section-header">
           <h1 className="title" ref={ref}>
