@@ -1,0 +1,15 @@
+@prefix kg:<https://dice-research.org/> .
+@prefix kgpapers: <https://dice-research.org/papers/> .
+@prefix schema: <https://schema.dice-research.org/> .
+
+
+kgpapers:paper14 a schema:Publication ;
+	schema:type "Publication" ;
+	schema:publicationType "inproceedings" ;
+	schema:title "NestE: Modeling Nested Relational Structures for Knowledge Graph Reasoning" ;
+	schema:author kg:BoXiong, kg:MojtabaNayyeri, kg:LinhaoLuo, kg:ZihaoWang, kg:ShiruiPan, kg:SteffenStaab ;
+	schema:authorName "Bo Xiong", "Mojtaba Nayyeri", "Linhao Luo", "Zihao Wang", "Shirui Pan", "Steffen Staab" ;
+	schema:source "Proceedings of the AAAI Conference on Artificial Intelligence" ;
+	schema:year "2024" ;
+	schema:url <https://arxiv.org/abs/2312.09219> ;
+	schema:pdfUrl <https://arxiv.org/abs/2312.09219> .

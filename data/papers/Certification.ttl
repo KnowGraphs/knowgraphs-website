@@ -1,0 +1,17 @@
+@prefix kg:<https://dice-research.org/> .
+@prefix kgpapers: <https://dice-research.org/papers/> .
+@prefix schema: <https://schema.dice-research.org/> .
+
+
+kgpapers:paper25 a schema:Publication ;
+	schema:type "Publication" ;
+	schema:publicationType "inproceedings" ;
+	schema:title "Certification as guidance for data protection by design" ;
+	schema:author kg:EfstratiosKoulierakis ;
+	schema:authorName "Efstratios Koulierakis" ;
+	schema:source "International Review of Law Computers and Technology" ;
+	schema:year "2023" ;
+	schema:url <https://doi.org/10.1080/13600869.2023.2269498> ;
+	schema:pdfUrl <https://doi.org/10.1080/13600869.2023.2269498> .
+
+

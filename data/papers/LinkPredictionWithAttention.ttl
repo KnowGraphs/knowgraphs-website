@@ -1,0 +1,15 @@
+@prefix kg:<https://dice-research.org/> .
+@prefix kgpapers: <https://dice-research.org/papers/> .
+@prefix schema: <https://schema.dice-research.org/> .
+
+
+kgpapers:paper12 a schema:Publication ;
+	schema:type "Publication" ;
+	schema:publicationType "inproceedings" ;
+	schema:title "Link Prediction with Attention Applied on Multiple Knowledge Graph Embedding Models" ;
+	schema:author kg:CosimoGregucci, kg:MojtabaNayyeri, kg:DanielHernández, kg:SteffenStaab ;
+	schema:authorName "Cosimo Gregucci", "Mojtaba Nayyeri", "Daniel Hernández", "Steffen Staab" ;
+	schema:source "WWW '23: Proceedings of the ACM Web Conference 2023" ;
+	schema:year "2023" ;
+	schema:url <https://arxiv.org/abs/2302.06229> ;
+	schema:pdfUrl <https://arxiv.org/abs/2302.06229> .

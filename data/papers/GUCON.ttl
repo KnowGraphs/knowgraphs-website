@@ -1,0 +1,15 @@
+@prefix kg:<https://dice-research.org/> .
+@prefix kgpapers: <https://dice-research.org/papers/> .
+@prefix schema: <https://schema.dice-research.org/> .
+
+
+kgpapers:paper24 a schema:Publication ;
+	schema:type "Publication" ;
+	schema:publicationType "inproceedings" ;
+	schema:title "GUCON: A Generic Graph Pattern based Policy Framework for Usage Control Enforcement" ;
+	schema:author kg:InesAkaichi, kg:GiorgosFlouris, kg:IriniFundulaki, kg:SabrinaKirrane ;
+	schema:authorName "Ines Akaichi", "Giorgos Flouris", "Irini Fundulaki", "Sabrina Kirrane" ;
+	schema:source "International Joint Conference on Rules and Reasoning (RuleML+RR)" ;
+	schema:year "2023" ;
+	schema:url <https://research.wu.ac.at/de/publications/gucon-a-generic-graph-pattern-based-policy-framework-for-usage-co> ;
+	schema:pdfUrl <https://research.wu.ac.at/de/publications/gucon-a-generic-graph-pattern-based-policy-framework-for-usage-co> .

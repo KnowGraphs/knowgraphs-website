@@ -1,0 +1,15 @@
+@prefix kg:<https://dice-research.org/> .
+@prefix kgpapers: <https://dice-research.org/papers/> .
+@prefix schema: <https://schema.dice-research.org/> .
+
+
+kgpapers:paper11 a schema:Publication ;
+	schema:type "Publication" ;
+	schema:publicationType "inproceedings" ;
+	schema:title "Semantic Technology based Usage Control for Decentralized Systems" ;
+	schema:author kg:InesAkaichi ;
+	schema:authorName "Ines Akaichi" ;
+	schema:source "Proceedings of the Doctoral Consortium at ISWC 2022" ;
+	schema:year "2022" ;
+	schema:url <https://arxiv.org/abs/2206.04947> ;
+	schema:pdfUrl <https://arxiv.org/abs/2206.04947> .
