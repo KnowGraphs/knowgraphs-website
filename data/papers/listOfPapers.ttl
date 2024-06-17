@@ -1,0 +1,268 @@
+@prefix kg:<https://dice-research.org/> .
+@prefix kgpapers: <https://dice-research.org/papers/> .
+@prefix schema: <https://schema.dice-research.org/> .
+
+kgpapers:paper1 a schema:Publication ;
+	schema:type "Publication" ;
+	schema:publicationType "article" ;
+	schema:title "Us vs. Them: A Dataset of Populist Attitudes, News Bias and Emotions" ;
+	schema:author kg:PereLluisHuguetCabot, kg:DavidAbadi, kg:AgnetaFischer, kg:EkaterinaShutova ;
+	schema:authorName "Pere-Lluís Huguet Cabot", "David Abadi", "Agneta Fischer", "Ekaterina Shutova" ;
+	schema:source "Proceedings of the 16th Conference of the European Chapter of the Association for Computational Linguistics: Main Volume" ;
+	schema:year "2021" ;
+	schema:url <https://dare.uva.nl/search?identifier=6f7ff6b2-6650-42ed-ad00-8fda9dc7251b> ;
+	schema:pdfUrl <https://dare.uva.nl/search?identifier=6f7ff6b2-6650-42ed-ad00-8fda9dc7251b> .
+
+kgpapers:paper2 a schema:Publication ;
+	schema:type "Publication" ;
+	schema:publicationType "article" ;
+	schema:title "REBEL: Relation Extraction By End-to-end Language generation" ;
+	schema:author kg:PereLluisHuguetCabot, kg:RobertoNavigli ;
+	schema:authorName "Pere-Lluís Huguet Cabot", "Roberto Navigli" ;
+	schema:source "Proceedings of Findings of EMNLP" ;
+	schema:year "2021" ;
+	schema:url <https://iris.uniroma1.it/handle/11573/1604164> ;
+	schema:pdfUrl <https://iris.uniroma1.it/handle/11573/1604164> .
+
+kgpapers:paper3 a schema:Publication ;
+	schema:type "Publication" ;
+	schema:publicationType "article" ;
+	schema:title "Ultrahyperbolic Knowledge Graph Embeddings" ;
+	schema:author kg:BoXiong, kg:ShichaoZhu, kg:MojtabaNayyeri, kg:ChengjinXu, kg:ShiruiPan, kg:ChuanZhou, kg:SteffenStaab ;
+	schema:authorName "Bo Xiong", "Shichao Zhu", "Mojtaba Nayyeri", "Chengjin Xu", "Shirui Pan", "Chuan Zhou", "Steffen Staab" ;
+	schema:source "ACM SIGKDD Conference on Knowledge Discovery and Data Mining, KDD-22" ;
+	schema:year "2022" ;
+	schema:url <https://arxiv.org/abs/2206.00449> ;
+	schema:pdfUrl <https://arxiv.org/abs/2206.00449> .
+
+kgpapers:paper4 a schema:Publication ;
+	schema:type "Publication" ;
+	schema:publicationType "article" ;
+	schema:title "Faithful Embeddings for EL++ Knowledge Bases" ;
+	schema:author kg:BoXiong, kg:NicoPotyka, kg:Trung-KienTran, kg:MojtabaNayyeri, kg:SteffenStaab ;
+	schema:authorName "Bo Xiong", "Nico Potyka", "Trung-Kien Tran", "Mojtaba Nayyeri", "Steffen Staab" ;
+	schema:source "ISWC 2022: 21st International Semantic Web Conference" ;
+	schema:year "2022" ;
+	schema:url <https://arxiv.org/abs/2201.09919> ;
+	schema:pdfUrl <https://arxiv.org/abs/2201.09919> .
+
+kgpapers:paper5 a schema:Publication ;
+	schema:type "Publication" ;
+	schema:publicationType "article" ;
+	schema:title "Hyperbolic Embedding Inference for Structured Multi-Label Prediction" ;
+	schema:author kg:BoXiong, kg:MichaelCochez, kg:MojtabaNayyeri, kg:SteffenStaab ;
+	schema:authorName "Bo Xiong", "Michael Cochez", "Mojtaba Nayyeri", "Steffen Staab" ;
+	schema:source "36th Conference on Neural Information Processing Systems (NeurIPS 2022)." ;
+	schema:year "2022" ;
+	schema:url <https://openreview.net/forum?id=XFnDhcEH9FF> ;
+	schema:pdfUrl <https://openreview.net/forum?id=XFnDhcEH9FF> .
+
+kgpapers:paper6 a schema:Publication ;
+	schema:type "Publication" ;
+	schema:publicationType "article" ;
+	schema:title "Pseudo-Riemannian Graph Convolutional Networks" ;
+	schema:author kg:BoXiong, kg:ShichaoZhu, kg:NicoPotyka, kg:ShiruiPan, kg:ChuanZhou, kg:SteffenStaab ;
+	schema:authorName "Bo Xiong", "Shichao Zhu", "Nico Potyka", "Shirui Pan", "Chuan Zhou", "Steffen Staab" ;
+	schema:source "36th Conference on Neural Information Processing Systems (NeurIPS 2022)" ;
+	schema:year "2022" ;
+	schema:url <https://arxiv.org/abs/2106.03134> ;
+	schema:pdfUrl <https://arxiv.org/abs/2106.03134> .
+
+kgpapers:paper26 a schema:Publication ;
+	schema:publicationType "article" ;
+	schema:title "Fully-Semantic Parsing and Generation: the BabelNet Meaning Representation" ;
+	schema:author kg:AbelardoCarlosMartínezLorenzo, kg:MarcoMaru, kg:RobertoNavigli ;
+	schema:authorName "Abelardo Carlos Martínez Lorenzo", "Marco Maru", "Roberto Navigli" ;
+	schema:source "Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics" ;
+	schema:year "2022" ;
+	schema:url <https://iris.uniroma1.it/handle/11573/1656313> ;
+	schema:pdfUrl <https://iris.uniroma1.it/handle/11573/1656313> .
+
+kgpapers:paper7 a schema:Publication ;
+	schema:type "Publication" ;
+	schema:publicationType "article" ;
+	schema:title "BabelNet Meaning Representation: A Fully Semantic Formalism to Overcome Language Barriers" ;
+	schema:author kg:RobertoNavigli, kg:RexhinaBlloshmi, kg:AbelardoCarlosMartinezLorenzo ;
+	schema:authorName "Roberto Navigli", "Rexhina Blloshmi", "Abelardo Carlos Martinez Lorenzo" ;
+	schema:source "Proceedings of the 36th AAAI Conference on Artificial Intelligence" ;
+	schema:year "2022" ;
+	schema:url <https://iris.uniroma1.it/handle/11573/1656315> ;
+	schema:pdfUrl <https://iris.uniroma1.it/handle/11573/1656315> .
+
+kgpapers:paper8 a schema:Publication ;
+	schema:type "Publication" ;
+	schema:publicationType "article" ;
+	schema:title "(Semi-) Automatic Construction of Knowledge Graph Metadata" ;
+	schema:author kg:MaryamMohammadi ;
+	schema:authorName "Maryam Mohammadi" ;
+	schema:source "The Semantic Web: ESWC 2022 Satellite Events" ;
+	schema:year "2022" ;
+	schema:url <https://dl.acm.org/doi/abs/10.1007/978-3-031-11609-4_32> ;
+	schema:pdfUrl <https://dl.acm.org/doi/abs/10.1007/978-3-031-11609-4_32> .
+
+kgpapers:paper9 a schema:Publication ;
+	schema:type "Publication" ;
+	schema:publicationType "article" ;
+	schema:title "Toward a Comparison Framework for Interactive Ontology Enrichment Methodologies" ;
+	schema:author kg:JarnoVrolijk, kg:IoannisReklos, kg:MahsaVafaie, kg:ArcangeloMassari, kg:MaryamMohammadi, kg:SebastianRudolph ;
+	schema:authorName "Jarno Vrolijk", "Ioannis Reklos", "Mahsa Vafaie", "Arcangelo Massari", "Maryam Mohammadi", "Sebastian Rudolph" ;
+	schema:source "Visualization and Interaction for Ontologies and Linked Data 2022" ;
+	schema:year "2022" ;
+	schema:url <https://cris.maastrichtuniversity.nl/en/publications/toward-a-comparison-framework-for-interactive-ontology-enrichment> ;
+	schema:pdfUrl <https://cris.maastrichtuniversity.nl/en/publications/toward-a-comparison-framework-for-interactive-ontology-enrichment> .
+
+kgpapers:paper10 a schema:Publication ;
+	schema:type "Publication" ;
+	schema:publicationType "article" ;
+	schema:title "A Semantic Policy Language for Usage Control" ;
+	schema:author kg:InesAkaichi, kg:SabrinaKirrane ;
+	schema:authorName "Ines Akaichi", "Sabrina Kirrane" ;
+	schema:source "Posters, Demos and Workshops at SEMANTiCS 2022" ;
+	schema:year "2022" ;
+	schema:url <https://research.wu.ac.at/en/publications/a-semantic-policy-language-for-usage-control> ;
+	schema:pdfUrl <https://research.wu.ac.at/en/publications/a-semantic-policy-language-for-usage-control> .
+
+kgpapers:paper11 a schema:Publication ;
+	schema:type "Publication" ;
+	schema:publicationType "article" ;
+	schema:title "Semantic Technology based Usage Control for Decentralized Systems" ;
+	schema:author kg:InesAkaichi ;
+	schema:authorName "Ines Akaichi" ;
+	schema:source "Proceedings of the Doctoral Consortium at ISWC 2022" ;
+	schema:year "2022" ;
+	schema:url <https://arxiv.org/abs/2206.04947> ;
+	schema:pdfUrl <https://arxiv.org/abs/2206.04947> .
+
+kgpapers:paper12 a schema:Publication ;
+	schema:type "Publication" ;
+	schema:publicationType "article" ;
+	schema:title "Link Prediction with Attention Applied on Multiple Knowledge Graph Embedding Models" ;
+	schema:author kg:CosimoGregucci, kg:MojtabaNayyeri, kg:DanielHernández, kg:SteffenStaab ;
+	schema:authorName "Cosimo Gregucci", "Mojtaba Nayyeri", "Daniel Hernández", "Steffen Staab" ;
+	schema:source "WWW '23: Proceedings of the ACM Web Conference 2023" ;
+	schema:year "2023" ;
+	schema:url <https://arxiv.org/abs/2302.06229> ;
+	schema:pdfUrl <https://arxiv.org/abs/2302.06229> .
+
+kgpapers:paper13 a schema:Publication ;
+	schema:type "Publication" ;
+	schema:publicationType "article" ;
+	schema:title "Time-aware Entity Alignment using Temporal Relational Attention" ;
+	schema:author kg:ChengjinXu, kg:FenglongSu, kg:BoXiong, kg:JensLehmann ;
+	schema:authorName "Chengjin Xu", "Fenglong Su", "Bo Xiong", "Jens Lehmann" ;
+	schema:source "Proceedings of the ACM Web Conference (WWW) 2022" ;
+	schema:year "2022" ;
+	schema:url <https://arxiv.org/abs/2203.02150> ;
+	schema:pdfUrl <https://arxiv.org/abs/2203.02150> .
+
+kgpapers:paper14 a schema:Publication ;
+	schema:type "Publication" ;
+	schema:publicationType "article" ;
+	schema:title "NestE: Modeling Nested Relational Structures for Knowledge Graph Reasoning" ;
+	schema:author kg:BoXiong, kg:MojtabaNayyeri, kg:LinhaoLuo, kg:ZihaoWang, kg:ShiruiPan, kg:SteffenStaab ;
+	schema:authorName "Bo Xiong", "Mojtaba Nayyeri", "Linhao Luo", "Zihao Wang", "Shirui Pan", "Steffen Staab" ;
+	schema:source "Proceedings of the AAAI Conference on Artificial Intelligence" ;
+	schema:year "2024" ;
+	schema:url <https://arxiv.org/abs/2312.09219> ;
+	schema:pdfUrl <https://arxiv.org/abs/2312.09219> .
+
+kgpapers:paper15 a schema:Publication ;
+	schema:type "Publication" ;
+	schema:publicationType "article" ;
+	schema:title "Shrinking Embeddings for Hyper-Relational Knowledge Graphs" ;
+	schema:author kg:BoXiong, kg:MojtabaNayyeri, kg:ShiruiPan, kg:SteffenStaab ;
+	schema:authorName "Bo Xiong", "Mojtaba Nayyeri", "Shirui Pan", "Steffen Staab" ;
+	schema:source "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics" ;
+	schema:year "2023" ;
+	schema:url <https://arxiv.org/abs/2306.02199> ;
+	schema:pdfUrl <https://arxiv.org/abs/2306.02199> .
+
+kgpapers:paper17 a schema:Publication ;
+	schema:type "Publication" ;
+	schema:publicationType "article" ;
+	schema:title "Cross-lingual AMR Aligner: Paying Attention to Cross-Attention" ;
+	schema:author kg:AbelardoCarlosMartinezLorenzo, kg:PereLluisHuguetCabot, kg:RobertoNavigli ;
+	schema:authorName "Abelardo Carlos Martinez Lorenzo", "Pere-Lluís Huguet Cabot", "Roberto Navigli" ;
+	schema:source "Findings of the Association for Computational Linguistics: ACL 2023" ;
+	schema:year "2023" ;
+	schema:url <https://doi.org/10.48550/arxiv.2206.07587> ;
+	schema:pdfUrl <https://doi.org/10.48550/arxiv.2206.07587> .
+
+kgpapers:paper18 a schema:Publication ;
+	schema:type "Publication" ;
+	schema:publicationType "article" ;
+	schema:title "AMRs Assemble! Learning to Ensemble with Autoregressive Models for AMR Parsing" ;
+	schema:author kg:AbelardoCarlosMartinezLorenzo, kg:PereLluisHuguetCabot, kg:RobertoNavigli ;
+	schema:authorName "Abelardo Carlos Martinez Lorenzo", "Pere-Lluís Huguet Cabot", "Roberto Navigli" ;
+	schema:source "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics" ;
+	schema:year "2023" ;
+	schema:url <https://doi.org/10.18653/v1/2023.acl-short.137> ;
+	schema:pdfUrl <https://doi.org/10.18653/v1/2023.acl-short.137> .
+
+kgpapers:paper19 a schema:Publication ;
+	schema:type "Publication" ;
+	schema:publicationType "article" ;
+	schema:title "Incorporating Graph Information in Transformer-based AMR Parsing" ;
+	schema:author kg:PavloVasylenko, kg:PereLluisHuguetCabot, kg:AbelardoCarlosMartinezLorenzo, kg:RobertoNavigli ;
+	schema:authorName "Pavlo Vasylenko", "Pere-Lluís Huguet Cabot", "Abelardo Carlos Martinez Lorenzo", "Roberto Navigli" ;
+	schema:source "Findings of the Association for Computational Linguistics: ACL 2023" ;
+	schema:year "2023" ;
+	schema:url <https://doi.org/10.18653/v1/2023.findings-acl.125> ;
+	schema:pdfUrl <https://doi.org/10.18653/v1/2023.findings-acl.125> .
+
+kgpapers:paper20 a schema:Publication ;
+	schema:type "Publication" ;
+	schema:publicationType "article" ;
+	schema:title "NPCS: Native Provenance Computation for SPARQL" ;
+	schema:author kg:ZubariaAsma, kg:DanielHernández, kg:LuisGalárraga, kg:GiorgosFlouris, kg:IriniFundulaki, kg:KatjaHose ;
+	schema:authorName "Zubaria Asma", "Daniel Hernández", "Luis Galárraga", "Giorgos Flouris", "Irini Fundulaki", "Katja Hose" ;
+	schema:source "WWW '24: Proceedings of the ACM on Web Conference 2024" ;
+	schema:year "2024" ;
+	schema:url <https://dl.acm.org/doi/> ;
+	schema:pdfUrl <https://dl.acm.org/doi/> .
+
+kgpapers:paper22 a schema:Publication ;
+	schema:type "Publication" ;
+	schema:publicationType "article" ;
+	schema:title "CollabGraph: A Graph-Based Collaborative Search Summary Visualization" ;
+	schema:author kg:EleniIlkou, kg:TetianaTolmachova, kg:MarcoFisichella, kg:DavideTaibi ;
+	schema:authorName "Eleni Ilkou", "Tetiana Tolmachova", "Marco Fisichella", "Davide Taibi" ;
+	schema:source "IEEE Transactions on Learning Technologies" ;
+	schema:year "2023" ;
+	schema:url <https://doi.org/10.15488/15454> ;
+	schema:pdfUrl <https://doi.org/10.15488/15454> .
+
+kgpapers:paper23 a schema:Publication ;
+	schema:type "Publication" ;
+	schema:publicationType "article" ;
+	schema:title "Personal Knowledge Graphs: Use Cases in e-learning Platforms" ;
+	schema:author kg:EleniIlkou ;
+	schema:authorName "Eleni Ilkou" ;
+	schema:source "Companion Proceedings of the Web Conference 2022 (WWW '22 Companion)" ;
+	schema:year "2022" ;
+	schema:url <http://arxiv.org/abs/2203.08507> ;
+	schema:pdfUrl <http://arxiv.org/abs/2203.08507> .
+
+kgpapers:paper24 a schema:Publication ;
+	schema:type "Publication" ;
+	schema:publicationType "article" ;
+	schema:title "GUCON: A Generic Graph Pattern based Policy Framework for Usage Control Enforcement" ;
+	schema:author kg:InesAkaichi, kg:GiorgosFlouris, kg:IriniFundulaki, kg:SabrinaKirrane ;
+	schema:authorName "Ines Akaichi", "Giorgos Flouris", "Irini Fundulaki", "Sabrina Kirrane" ;
+	schema:source "International Joint Conference on Rules and Reasoning (RuleML+RR)" ;
+	schema:year "2023" ;
+	schema:url <https://research.wu.ac.at/de/publications/gucon-a-generic-graph-pattern-based-policy-framework-for-usage-co> ;
+	schema:pdfUrl <https://research.wu.ac.at/de/publications/gucon-a-generic-graph-pattern-based-policy-framework-for-usage-co> .
+
+kgpapers:paper25 a schema:Publication ;
+	schema:type "Publication" ;
+	schema:publicationType "article" ;
+	schema:title "Certification as guidance for data protection by design" ;
+	schema:author kg:EfstratiosKoulierakis ;
+	schema:authorName "Efstratios Koulierakis" ;
+	schema:source "International Review of Law Computers and Technology" ;
+	schema:year "2023" ;
+	schema:url <https://doi.org/10.1080/13600869.2023.2269498> ;
+	schema:pdfUrl <https://doi.org/10.1080/13600869.2023.2269498> .
+
+
