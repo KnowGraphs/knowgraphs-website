@@ -1,0 +1,15 @@
+@prefix kg:<https://dice-research.org/> .
+@prefix kgpapers: <https://dice-research.org/papers/> .
+@prefix schema: <https://schema.dice-research.org/> .
+
+
+kgpapers:paper18 a schema:Publication ;
+	schema:type "Publication" ;
+	schema:publicationType "inproceedings" ;
+	schema:title "AMRs Assemble! Learning to Ensemble with Autoregressive Models for AMR Parsing" ;
+	schema:author kg:AbelardoCarlosMartinezLorenzo, kg:PereLluisHuguetCabot, kg:RobertoNavigli ;
+	schema:authorName "Abelardo Carlos Martinez Lorenzo", "Pere-Lluís Huguet Cabot", "Roberto Navigli" ;
+	schema:source "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics" ;
+	schema:year "2023" ;
+	schema:url <https://doi.org/10.18653/v1/2023.acl-short.137> ;
+	schema:pdfUrl <https://doi.org/10.18653/v1/2023.acl-short.137> .

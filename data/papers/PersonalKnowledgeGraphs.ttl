@@ -1,0 +1,15 @@
+@prefix kg:<https://dice-research.org/> .
+@prefix kgpapers: <https://dice-research.org/papers/> .
+@prefix schema: <https://schema.dice-research.org/> .
+
+
+kgpapers:paper23 a schema:Publication ;
+	schema:type "Publication" ;
+	schema:publicationType "inproceedings" ;
+	schema:title "Personal Knowledge Graphs: Use Cases in e-learning Platforms" ;
+	schema:author kg:EleniIlkou ;
+	schema:authorName "Eleni Ilkou" ;
+	schema:source "Companion Proceedings of the Web Conference 2022 (WWW '22 Companion)" ;
+	schema:year "2022" ;
+	schema:url <http://arxiv.org/abs/2203.08507> ;
+	schema:pdfUrl <http://arxiv.org/abs/2203.08507> .

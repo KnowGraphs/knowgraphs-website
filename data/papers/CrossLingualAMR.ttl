@@ -1,0 +1,15 @@
+@prefix kg:<https://dice-research.org/> .
+@prefix kgpapers: <https://dice-research.org/papers/> .
+@prefix schema: <https://schema.dice-research.org/> .
+
+
+kgpapers:paper17 a schema:Publication ;
+	schema:type "Publication" ;
+	schema:publicationType "inproceedings" ;
+	schema:title "Cross-lingual AMR Aligner: Paying Attention to Cross-Attention" ;
+	schema:author kg:AbelardoCarlosMartinezLorenzo, kg:PereLluisHuguetCabot, kg:RobertoNavigli ;
+	schema:authorName "Abelardo Carlos Martinez Lorenzo", "Pere-Lluís Huguet Cabot", "Roberto Navigli" ;
+	schema:source "Findings of the Association for Computational Linguistics: ACL 2023" ;
+	schema:year "2023" ;
+	schema:url <https://doi.org/10.48550/arxiv.2206.07587> ;
+	schema:pdfUrl <https://doi.org/10.48550/arxiv.2206.07587> .

@@ -1,0 +1,16 @@
+@prefix kg:<https://dice-research.org/> .
+@prefix kgpapers: <https://dice-research.org/papers/> .
+@prefix schema: <https://schema.dice-research.org/> .
+
+
+kgpapers:paper8 a schema:Publication ;
+	schema:type "Publication" ;
+	schema:publicationType "inproceedings" ;
+	schema:title "(Semi-) Automatic Construction of Knowledge Graph Metadata" ;
+	schema:author kg:MaryamMohammadi ;
+	schema:authorName "Maryam Mohammadi" ;
+	schema:source "The Semantic Web: ESWC 2022 Satellite Events" ;
+	schema:year "2022" ;
+	schema:url <https://dl.acm.org/doi/abs/10.1007/978-3-031-11609-4_32> ;
+	schema:pdfUrl <https://dl.acm.org/doi/abs/10.1007/978-3-031-11609-4_32> .
+

@@ -1,0 +1,15 @@
+@prefix kg:<https://dice-research.org/> .
+@prefix kgpapers: <https://dice-research.org/papers/> .
+@prefix schema: <https://schema.dice-research.org/> .
+
+
+kgpapers:paper19 a schema:Publication ;
+	schema:type "Publication" ;
+	schema:publicationType "inproceedings" ;
+	schema:title "Incorporating Graph Information in Transformer-based AMR Parsing" ;
+	schema:author kg:PavloVasylenko, kg:PereLluisHuguetCabot, kg:AbelardoCarlosMartinezLorenzo, kg:RobertoNavigli ;
+	schema:authorName "Pavlo Vasylenko", "Pere-Lluís Huguet Cabot", "Abelardo Carlos Martinez Lorenzo", "Roberto Navigli" ;
+	schema:source "Findings of the Association for Computational Linguistics: ACL 2023" ;
+	schema:year "2023" ;
+	schema:url <https://doi.org/10.18653/v1/2023.findings-acl.125> ;
+	schema:pdfUrl <https://doi.org/10.18653/v1/2023.findings-acl.125> .

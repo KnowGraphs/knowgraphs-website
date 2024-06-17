@@ -1,0 +1,15 @@
+@prefix kg:<https://dice-research.org/> .
+@prefix kgpapers: <https://dice-research.org/papers/> .
+@prefix schema: <https://schema.dice-research.org/> .
+
+
+kgpapers:paper22 a schema:Publication ;
+	schema:type "Publication" ;
+	schema:publicationType "inproceedings" ;
+	schema:title "CollabGraph: A Graph-Based Collaborative Search Summary Visualization" ;
+	schema:author kg:EleniIlkou, kg:TetianaTolmachova, kg:MarcoFisichella, kg:DavideTaibi ;
+	schema:authorName "Eleni Ilkou", "Tetiana Tolmachova", "Marco Fisichella", "Davide Taibi" ;
+	schema:source "IEEE Transactions on Learning Technologies" ;
+	schema:year "2023" ;
+	schema:url <https://doi.org/10.15488/15454> ;
+	schema:pdfUrl <https://doi.org/10.15488/15454> .

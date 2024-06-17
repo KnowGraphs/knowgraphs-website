@@ -1,0 +1,15 @@
+@prefix kg:<https://dice-research.org/> .
+@prefix kgpapers: <https://dice-research.org/papers/> .
+@prefix schema: <https://schema.dice-research.org/> .
+
+kgpapers:paper4 a schema:Publication ;
+	schema:type "Publication" ;
+	schema:publicationType "inproceedings" ;
+	schema:title "Faithful Embeddings for EL++ Knowledge Bases" ;
+	schema:author kg:BoXiong, kg:NicoPotyka, kg:Trung-KienTran, kg:MojtabaNayyeri, kg:SteffenStaab ;
+	schema:authorName "Bo Xiong", "Nico Potyka", "Trung-Kien Tran", "Mojtaba Nayyeri", "Steffen Staab" ;
+	schema:source "ISWC 2022: 21st International Semantic Web Conference" ;
+	schema:year "2022" ;
+	schema:url <https://arxiv.org/abs/2201.09919> ;
+	schema:pdfUrl <https://arxiv.org/abs/2201.09919> .
+	

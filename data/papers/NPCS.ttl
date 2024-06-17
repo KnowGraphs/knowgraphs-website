@@ -1,0 +1,15 @@
+@prefix kg:<https://dice-research.org/> .
+@prefix kgpapers: <https://dice-research.org/papers/> .
+@prefix schema: <https://schema.dice-research.org/> .
+
+
+kgpapers:paper20 a schema:Publication ;
+	schema:type "Publication" ;
+	schema:publicationType "inproceedings" ;
+	schema:title "NPCS: Native Provenance Computation for SPARQL" ;
+	schema:author kg:ZubariaAsma, kg:DanielHernández, kg:LuisGalárraga, kg:GiorgosFlouris, kg:IriniFundulaki, kg:KatjaHose ;
+	schema:authorName "Zubaria Asma", "Daniel Hernández", "Luis Galárraga", "Giorgos Flouris", "Irini Fundulaki", "Katja Hose" ;
+	schema:source "WWW '24: Proceedings of the ACM on Web Conference 2024" ;
+	schema:year "2024" ;
+	schema:url <https://dl.acm.org/doi/> ;
+	schema:pdfUrl <https://dl.acm.org/doi/> .

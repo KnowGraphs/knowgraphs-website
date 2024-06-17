@@ -1,0 +1,15 @@
+@prefix kg:<https://dice-research.org/> .
+@prefix kgpapers: <https://dice-research.org/papers/> .
+@prefix schema: <https://schema.dice-research.org/> .
+
+
+kgpapers:paper13 a schema:Publication ;
+	schema:type "Publication" ;
+	schema:publicationType "inproceedings" ;
+	schema:title "Time-aware Entity Alignment using Temporal Relational Attention" ;
+	schema:author kg:ChengjinXu, kg:FenglongSu, kg:BoXiong, kg:JensLehmann ;
+	schema:authorName "Chengjin Xu", "Fenglong Su", "Bo Xiong", "Jens Lehmann" ;
+	schema:source "Proceedings of the ACM Web Conference (WWW) 2022" ;
+	schema:year "2022" ;
+	schema:url <https://arxiv.org/abs/2203.02150> ;
+	schema:pdfUrl <https://arxiv.org/abs/2203.02150> .

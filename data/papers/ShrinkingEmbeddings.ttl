@@ -1,0 +1,15 @@
+@prefix kg:<https://dice-research.org/> .
+@prefix kgpapers: <https://dice-research.org/papers/> .
+@prefix schema: <https://schema.dice-research.org/> .
+
+
+kgpapers:paper15 a schema:Publication ;
+	schema:type "Publication" ;
+	schema:publicationType "inproceedings" ;
+	schema:title "Shrinking Embeddings for Hyper-Relational Knowledge Graphs" ;
+	schema:author kg:BoXiong, kg:MojtabaNayyeri, kg:ShiruiPan, kg:SteffenStaab ;
+	schema:authorName "Bo Xiong", "Mojtaba Nayyeri", "Shirui Pan", "Steffen Staab" ;
+	schema:source "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics" ;
+	schema:year "2023" ;
+	schema:url <https://arxiv.org/abs/2306.02199> ;
+	schema:pdfUrl <https://arxiv.org/abs/2306.02199> .

@@ -1,0 +1,15 @@
+@prefix kg:<https://dice-research.org/> .
+@prefix kgpapers: <https://dice-research.org/papers/> .
+@prefix schema: <https://schema.dice-research.org/> .
+
+kgpapers:paper3 a schema:Publication ;
+	schema:type "Publication" ;
+	schema:publicationType "inproceedings" ;
+	schema:title "Ultrahyperbolic Knowledge Graph Embeddings" ;
+	schema:author kg:BoXiong, kg:ShichaoZhu, kg:MojtabaNayyeri, kg:ChengjinXu, kg:ShiruiPan, kg:ChuanZhou, kg:SteffenStaab ;
+	schema:authorName "Bo Xiong", "Shichao Zhu", "Mojtaba Nayyeri", "Chengjin Xu", "Shirui Pan", "Chuan Zhou", "Steffen Staab" ;
+	schema:source "ACM SIGKDD Conference on Knowledge Discovery and Data Mining, KDD-22" ;
+	schema:year "2022" ;
+	schema:url <https://arxiv.org/abs/2206.00449> ;
+	schema:pdfUrl <https://arxiv.org/abs/2206.00449> .
+	

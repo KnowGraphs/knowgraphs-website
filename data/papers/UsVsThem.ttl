@@ -1,0 +1,15 @@
+@prefix kg:<https://dice-research.org/> .
+@prefix kgpapers: <https://dice-research.org/papers/> .
+@prefix schema: <https://schema.dice-research.org/> .
+
+kgpapers:paper1 a schema:Publication ;
+	schema:type "Publication" ;
+	schema:publicationType "inproceedings" ;
+	schema:title "Us vs. Them: A Dataset of Populist Attitudes, News Bias and Emotions" ;
+	schema:author kg:PereLluisHuguetCabot, kg:DavidAbadi, kg:AgnetaFischer, kg:EkaterinaShutova ;
+	schema:authorName "Pere-Lluís Huguet Cabot", "David Abadi", "Agneta Fischer", "Ekaterina Shutova" ;
+	schema:source "Proceedings of the 16th Conference of the European Chapter of the Association for Computational Linguistics: Main Volume" ;
+	schema:year "2021" ;
+	schema:url <https://dare.uva.nl/search?identifier=6f7ff6b2-6650-42ed-ad00-8fda9dc7251b> ;
+	schema:pdfUrl <https://dare.uva.nl/search?identifier=6f7ff6b2-6650-42ed-ad00-8fda9dc7251b> .
+

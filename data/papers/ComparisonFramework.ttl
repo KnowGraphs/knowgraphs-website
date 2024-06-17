@@ -1,0 +1,16 @@
+@prefix kg:<https://dice-research.org/> .
+@prefix kgpapers: <https://dice-research.org/papers/> .
+@prefix schema: <https://schema.dice-research.org/> .
+
+
+kgpapers:paper9 a schema:Publication ;
+	schema:type "Publication" ;
+	schema:publicationType "article" ;
+	schema:title "Toward a Comparison Framework for Interactive Ontology Enrichment Methodologies" ;
+	schema:author kg:JarnoVrolijk, kg:IoannisReklos, kg:MahsaVafaie, kg:ArcangeloMassari, kg:MaryamMohammadi, kg:SebastianRudolph ;
+	schema:authorName "Jarno Vrolijk", "Ioannis Reklos", "Mahsa Vafaie", "Arcangelo Massari", "Maryam Mohammadi", "Sebastian Rudolph" ;
+	schema:source "Visualization and Interaction for Ontologies and Linked Data 2022" ;
+	schema:year "2022" ;
+	schema:url <https://cris.maastrichtuniversity.nl/en/publications/toward-a-comparison-framework-for-interactive-ontology-enrichment> ;
+	schema:pdfUrl <https://cris.maastrichtuniversity.nl/en/publications/toward-a-comparison-framework-for-interactive-ontology-enrichment> .
+	

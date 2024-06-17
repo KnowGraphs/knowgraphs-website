@@ -1,0 +1,15 @@
+@prefix kg:<https://dice-research.org/> .
+@prefix kgpapers: <https://dice-research.org/papers/> .
+@prefix schema: <https://schema.dice-research.org/> .
+
+
+kgpapers:paper10 a schema:Publication ;
+	schema:type "Publication" ;
+	schema:publicationType "inproceedings" ;
+	schema:title "A Semantic Policy Language for Usage Control" ;
+	schema:author kg:InesAkaichi, kg:SabrinaKirrane ;
+	schema:authorName "Ines Akaichi", "Sabrina Kirrane" ;
+	schema:source "Posters, Demos and Workshops at SEMANTiCS 2022" ;
+	schema:year "2022" ;
+	schema:url <https://research.wu.ac.at/en/publications/a-semantic-policy-language-for-usage-control> ;
+	schema:pdfUrl <https://research.wu.ac.at/en/publications/a-semantic-policy-language-for-usage-control> .

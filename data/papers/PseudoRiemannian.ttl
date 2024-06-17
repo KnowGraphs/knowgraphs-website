@@ -1,0 +1,15 @@
+@prefix kg:<https://dice-research.org/> .
+@prefix kgpapers: <https://dice-research.org/papers/> .
+@prefix schema: <https://schema.dice-research.org/> .
+
+kgpapers:paper6 a schema:Publication ;
+	schema:type "Publication" ;
+	schema:publicationType "inproceedings" ;
+	schema:title "Pseudo-Riemannian Graph Convolutional Networks" ;
+	schema:author kg:BoXiong, kg:ShichaoZhu, kg:NicoPotyka, kg:ShiruiPan, kg:ChuanZhou, kg:SteffenStaab ;
+	schema:authorName "Bo Xiong", "Shichao Zhu", "Nico Potyka", "Shirui Pan", "Chuan Zhou", "Steffen Staab" ;
+	schema:source "36th Conference on Neural Information Processing Systems (NeurIPS 2022)" ;
+	schema:year "2022" ;
+	schema:url <https://arxiv.org/abs/2106.03134> ;
+	schema:pdfUrl <https://arxiv.org/abs/2106.03134> .
+	

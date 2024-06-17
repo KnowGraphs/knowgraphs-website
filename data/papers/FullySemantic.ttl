@@ -1,0 +1,15 @@
+@prefix kg:<https://dice-research.org/> .
+@prefix kgpapers: <https://dice-research.org/papers/> .
+@prefix schema: <https://schema.dice-research.org/> .
+
+
+kgpapers:paper26 a schema:Publication ;
+	schema:type "Publication" ;
+	schema:publicationType "inproceedings" ;
+	schema:title "Fully-Semantic Parsing and Generation: the BabelNet Meaning Representation" ;
+	schema:author kg:AbelardoCarlosMartínezLorenzo, kg:MarcoMaru, kg:RobertoNavigli ;
+	schema:authorName "Abelardo Carlos Martínez Lorenzo", "Marco Maru", "Roberto Navigli" ;
+	schema:source "Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics" ;
+	schema:year "2022" ;
+	schema:url <https://iris.uniroma1.it/handle/11573/1656313> ;
+	schema:pdfUrl <https://iris.uniroma1.it/handle/11573/1656313> .
