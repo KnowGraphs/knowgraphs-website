@@ -12,5 +12,5 @@ kgpapers:paper8 a schema:Publication ;
 	schema:source "The Semantic Web: ESWC 2022 Satellite Events" ;
 	schema:year "2022" ;
 	schema:url <https://dl.acm.org/doi/abs/10.1007/978-3-031-11609-4_32> ;
-	schema:pdfUrl <https://dl.acm.org/doi/abs/10.1007/978-3-031-11609-4_32> .
+	schema:pdfUrl <https://cris.maastrichtuniversity.nl/en/publications/semi-automatic-construction-of-knowledge-graph-metadata> .
 
